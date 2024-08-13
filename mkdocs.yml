@@ -1,10 +1,12 @@
 site_name: Test docs
 site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_author: 'Wen-Chieh Lee'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_name: 'wenchiehlee/mkdocs'
+repo_url: 'https://github.com/wenchiehlee/mkdocs'
 nav:
     - Home: index.md
 theme:
   name: 'material'
+plugins:
+  - rss
