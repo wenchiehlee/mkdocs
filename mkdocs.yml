@@ -1,6 +1,7 @@
 site_name: Test docs
 site_description: 'A docs test'
 site_author: 'Wen-Chieh Lee'
+site_url: 'https://wenchiehlee.github.io/mkdocs'
 docs_dir: docs/
 repo_name: 'wenchiehlee/mkdocs'
 repo_url: 'https://github.com/wenchiehlee/mkdocs'
