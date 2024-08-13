@@ -1,5 +1,5 @@
 site_name: Wen-Chieh Lee
-site_description: 'Wen-Chieh Lee's mkdocs site'
+site_description: 'Wen-Chieh Lee mkdocs site'
 site_author: 'Wen-Chieh Lee'
 site_url: 'https://wenchiehlee.github.io/mkdocs'
 docs_dir: docs/
