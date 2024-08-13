@@ -56,7 +56,10 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      authors_profiles: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
