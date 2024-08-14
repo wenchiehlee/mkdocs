@@ -140,3 +140,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Blog:
+    - blog/index.md
+
+
