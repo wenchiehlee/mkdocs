@@ -6,7 +6,7 @@ image: https://github.com/daochenzha/data-centric-AI/raw/main/imgs/data-centric.
 visit:
 tags: [featured]
 featured: true
-author: [wjlee]
+authors: [wjlee]
 ---
 
 ## Overview
