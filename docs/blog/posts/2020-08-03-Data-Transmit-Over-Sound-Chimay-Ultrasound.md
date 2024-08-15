@@ -4,7 +4,7 @@ date: 2020-07-28
 categories: [Audio Synthesis]
 image: assets/images/ultrasonic.png
 visit:
-authors: wjlee
+authors: [wjlee]
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

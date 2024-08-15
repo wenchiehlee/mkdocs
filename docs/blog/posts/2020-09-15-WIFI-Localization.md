@@ -2,7 +2,7 @@
 title:  "Pytorch POC #6: WIFI Indoor Positioning"
 date: 2020-09-15
 categories: [ Tensorflow, "Fine-Tune Model", "WIFI Indoor Positioning", "Supervised Learning","BigData", "IOT"]
-authors: wjlee
+authors: [wjlee]
 image: "https://ja-si.com/wp-content/uploads/2017/05/Indoor-Location-Tracking.jpg"
 visit: "http://dlc.barco.com:3234"
 ---

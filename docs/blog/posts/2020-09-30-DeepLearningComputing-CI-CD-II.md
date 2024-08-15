@@ -6,7 +6,7 @@ image: "https://miro.medium.com/max/945/1*qehZ1KLTEO6y8tcCwlwWzQ.png"
 visit: "http://dlc.barco.com"
 toc: true
 tags: 
-authors: wjlee
+authors: [wjlee]
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

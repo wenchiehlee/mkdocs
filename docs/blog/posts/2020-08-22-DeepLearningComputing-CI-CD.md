@@ -5,7 +5,7 @@ categories: ["DevOps"]
 image: "https://miro.medium.com/max/945/1*qehZ1KLTEO6y8tcCwlwWzQ.png"
 visit: "https://wenchiehlee.github.io/DeepLearningComputing-CI-CD/"
 toc: true
-authors: wjlee
+authors: [wjlee]
 ---
 
 [![](http://cdn-0.plantuml.com/plantuml/png/LT2zJiD03C3n_Px2Y2qBxS3UDbag8H4fY0KOJCuaf-Rim-TJoTjJ93wEzVUtPScxRAWM0_k8oLtPJ970P7N3AN12nGYPtWlnI7jLEJ_COJmnvGnRbtz7UbGBOqZ8rgFtWIUuhV91FdvukwaSHnCTR5q8y4nP8bNnZYPYVn3rf7zNDyurJzUYo1EzmFxecWPQYQaOAJo678J_qRxu85_IeQ5hgjtsUDDs5wcelsyp2CCmYneyysinU2lB0kqwBdI1Zj8YQoIsx7R4_ljldm00)](http://www.plantuml.com/plantuml/uml/LT2zJiD03C3n_Px2Y2qBxS3UDbag8H4fY0KOJCuaf-Rim-TJoTjJ93wEzVUtPScxRAWM0_k8oLtPJ970P7N3AN12nGYPtWlnI7jLEJ_COJmnvGnRbtz7UbGBOqZ8rgFtWIUuhV91FdvukwaSHnCTR5q8y4nP8bNnZYPYVn3rf7zNDyurJzUYo1EzmFxecWPQYQaOAJo678J_qRxu85_IeQ5hgjtsUDDs5wcelsyp2CCmYneyysinU2lB0kqwBdI1Zj8YQoIsx7R4_ljldm00)

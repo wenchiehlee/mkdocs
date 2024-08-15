@@ -4,7 +4,7 @@ date: 2020-08-20
 categories: [ Pytorch, "Pre-trained Model", "Speech Synthesis", "Supervised Learning" ]
 image: "/assets/images/6428f980e9ec751c248e591460895f7881aec0c6.png"
 visit: http://dlc.barco.com:5500/
-authors: wjlee
+authors: [wjlee]
 ---
 
 | Git Repo                                                                                                                                         | Status                                                                                                                                                                | Progress                                                                                                                    | Comments                                                     |

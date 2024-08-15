@@ -2,7 +2,7 @@
 title:  "Pytorch POC #5: Audio De-Noiser"
 date: 2020-09-11
 categories: [ Tensorflow, "Pre-trained Model", "Audio Synthesis", "Supervised Learning" ]
-authors: wjlee
+authors: [wjlee]
 image: "/assets/images/13.05.2020_14.14.55_REC.png"
 visit: "http://dlc.barco.com:3234"
 ---
