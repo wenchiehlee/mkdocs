@@ -3,7 +3,7 @@ title:  "Pre-trained Model, and What is Next Steps"
 date: 2020-07-10
 categories: ["Pre-trained Model"]
 image: "/assets/images/DLC-mindmap.png"
-author: wjlee
+authors: wjlee
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

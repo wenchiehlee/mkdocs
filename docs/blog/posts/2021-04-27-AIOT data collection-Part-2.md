@@ -6,7 +6,7 @@ image: "https://datajourney.akvo.org/hs-fs/hubfs/Screen%20Shot%202020-07-28%20at
 visit:
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 This post focuses on concepts of big data before go deeper of technology.

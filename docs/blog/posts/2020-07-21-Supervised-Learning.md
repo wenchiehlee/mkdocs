@@ -4,7 +4,7 @@ date: 2020-07-13
 categories: ["Unsupervised Learning", "Supervised Learning", "Semi-Supervised Learning", "Reinforcement Learning"]
 image: assets/images/Supervised-Unsupervised-Semi-Supervised-Reforcement-Learning.jpg
 visit:
-author: wjlee
+authors: wjlee
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

@@ -2,7 +2,7 @@
 title:  "Tensorflow.js POC #13: Avatar Generator with Face-API.js"
 date: 2020-09-18
 categories: [ Tensorflow, "Fine-Tune Model", "Face Recognition", "Supervised Learning" ]
-author: wjlee
+authors: wjlee
 image: "/assets/images/18.09.2020_01.36.06_REC.png"
 visit: "http://dlc.barco.com:3234"
 ---

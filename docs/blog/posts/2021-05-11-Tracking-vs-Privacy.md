@@ -6,7 +6,7 @@ image: "https://www.claritysquared.com/img/asset/YXNzZXRzL25pa2UtcmVxdWVzdHMuanB
 visit:
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 ## References

@@ -6,7 +6,7 @@ image:
 visit: "http://dlc.barco.com"
 toc: false
 tags: 
-author: wjlee
+authors: wjlee
 ---
 
 

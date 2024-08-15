@@ -5,7 +5,7 @@ categories: [ Tensorflow, "Pre-trained Model", "Image Feature Extraction", "Supe
 image: "/assets/images/09.06.2020_12.25.26_REC.png"
 visit: "http://dlc.barco.com:1234/"
 tags: [featured]
-author: wjlee
+authors: wjlee
 ---
 
 

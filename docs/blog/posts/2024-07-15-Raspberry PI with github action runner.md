@@ -4,7 +4,7 @@ date: 2024-07-15
 categories: ["IOT"]
 image: https://earthly.dev/blog/assets/images/composite-actions-github/workflow.png
 visit:
-author: wjlee
+authors: wjlee
 ---
 
 ## Overview

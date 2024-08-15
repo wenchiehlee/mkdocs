@@ -6,7 +6,7 @@ image: "https://lena-voita.github.io/resources/lectures/word_emb/analysis/king_e
 visit:
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 [![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F4440537%2F9893aebfd4a94def4806612dc98eb2e1%2Fnlp.png?generation=1610797433251310&alt=media)](https://www.kaggle.com/getting-started/211797)

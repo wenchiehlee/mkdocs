@@ -6,7 +6,7 @@ image: "https://newrelic.com/sites/default/files/wp_blog_inline_files/telegraf1.
 visit:
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 ## Overview

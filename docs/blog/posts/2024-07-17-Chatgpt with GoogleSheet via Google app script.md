@@ -4,7 +4,7 @@ date: 2024-07-12
 categories: ["GenAI"]
 image: https://miro.medium.com/v2/format:webp/1*xIBJPl26sSNuAxPd7BKG3w.jpeg
 visit:
-author: [wjlee]
+authors: [wjlee]
 ---
 
 ## Overview

@@ -6,7 +6,7 @@ image: "https://i.pinimg.com/originals/0b/f3/2d/0bf32d3dc6feb3f87b2050c76229a662
 visit: http://dlc2.barco.com:3004/
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

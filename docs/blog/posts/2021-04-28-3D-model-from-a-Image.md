@@ -6,7 +6,7 @@ image: "https://www.revopoint3d.com/wp-content/uploads/2020/03/2.png"
 visit:
 tags: [featured]
 featured: true
-author: wjlee
+authors: wjlee
 ---
 
 ## References
