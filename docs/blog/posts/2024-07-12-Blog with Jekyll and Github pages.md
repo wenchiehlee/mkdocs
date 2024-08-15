@@ -6,7 +6,6 @@ image:
 visit:
 author: wjlee
 ---
-# Blog with Jekyll and Github pages
 
 ## Overview
 

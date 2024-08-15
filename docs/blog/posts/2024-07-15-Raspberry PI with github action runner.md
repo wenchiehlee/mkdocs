@@ -7,7 +7,6 @@ visit:
 author: wjlee
 ---
 
-# Raspberry PI with github actions runner
 ## Overview
 
 
