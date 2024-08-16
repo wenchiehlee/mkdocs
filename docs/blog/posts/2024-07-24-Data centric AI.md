@@ -2,9 +2,10 @@
 title:  "Data centric AI"
 date: 2024-07-24
 categories: [Data]
+tags: [featured]
+icon: material/database
 image: https://github.com/daochenzha/data-centric-AI/raw/main/imgs/data-centric.png
 visit:
-tags: [featured]
 featured: true
 authors: [wjlee]
 ---
