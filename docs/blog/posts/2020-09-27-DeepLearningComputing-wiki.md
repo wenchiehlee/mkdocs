@@ -5,7 +5,6 @@ categories: [DevOps]
 image: 
 visit: "http://dlc.barco.com"
 toc: false
-tags: 
 authors: [wjlee]
 ---
 

@@ -6,6 +6,7 @@ image: "/assets/images/avatar255x287-waifu2x_artwork.png"
 visit: "https://wiki.barco.com/display/~WJLEE/Super+Resolution+of+Images"
 layout: post
 ---
+```{r echo=FALSE, eval=FALSE}
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -37,7 +38,7 @@ layout: post
     </script>
 </body>
 
-
+```
 
 | Git Repo                                                                                                                                         | Status                                                                                                                                                                | Progress                                                                                                                    | Comments                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
@@ -61,6 +62,7 @@ Now we provide A/B Test on the different target images to verify the results of 
 SRMD-NCNN = waifu2x-NCNN = waifu2x > lanczos3 > bicubic > Anime4K > SRGAN (bicubic is most GPU interpolation algorithm. So lanczos3 and waifu2x show better results to normal GPU). SRGAN, Anime4K: SR result is GG..
 
 #### Quality comparison: bicubic < waifu2x
+```{r echo=FALSE, eval=FALSE}
 {% slider2020 %}
   ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-bicubic.png)
   ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
@@ -108,7 +110,7 @@ SRGAN is GG
   ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-bicubic.png)
   ![Anime4K]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Anime4K.png)
 {% endslider2020 %}
-
+```
 
 ### Part II
 Check [Part II]({{ site.url }}{{ site.baseurl }}/SuperResolution-with-waifu2x-II/)

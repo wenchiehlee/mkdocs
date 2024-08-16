@@ -6,7 +6,7 @@ image: "/assets/images/lena400x400-waifu2x_artwork.png"
 visit: "https://wiki.barco.com/display/~WJLEE/Super+Resolution+of+Images"
 layout: post
 ---
-
+```{r echo=FALSE, eval=FALSE}
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -33,7 +33,7 @@ layout: post
     </script>
 </body>
 
-
+```
 
 | Git Repo                                                                                                                                         | Status                                                                                                                                                                | Progress                                                                                                                    | Comments                                                     |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
@@ -50,6 +50,7 @@ avatar255x287 is a 255x287 size PNG animation. We use it to identify the aliasin
 waifu2x-photo = waifu2x-artwork_y = waifu2x-artwork > lanczos3 > bicubic
 
 #### Quality comparison: bicubic < waifu2x_artwork
+```{r echo=FALSE, eval=FALSE}
 {% slider2020 %}
   ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-bicubic.png)
   ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork.png)
@@ -115,7 +116,7 @@ lena400x400 is a 400x400 size JPG with natural human. We use it to identify the 
   ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-lanczos3.png)
   ![waifu2x_photo]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_photo.png)
 {% endslider2020 %}
-
+```
 ## Next step
 * WenGL version of waifu2x.js
 
