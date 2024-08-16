@@ -53,7 +53,12 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-
+    tag:
+      3D:     material/video-3d
+      AI:     octicons/ai-model-24
+      Data:   material/database-settings-outline
+      DevOps: simple/opslevel
+      IOT:    simple/iota
 # Plugins
 plugins:
   - blog:
