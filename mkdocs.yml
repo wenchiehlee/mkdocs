@@ -67,8 +67,7 @@ plugins:
   - minify:
       minify_html: true
   - rss
-  - tags:
-      tags_file: tags.md
+  - tags
 # Customization
 extra:
   annotate:
