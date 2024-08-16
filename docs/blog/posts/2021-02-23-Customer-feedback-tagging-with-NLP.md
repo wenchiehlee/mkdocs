@@ -1,7 +1,8 @@
 ---
 title:  "Customer Feedback Tagging with NLP"
 date: 2021-02-23
-categories: ["Pre-trained Model", NLP, "Semi-Supervised Learning"]
+categories: [AI]
+tags: ["Pre-trained Model", NLP, "Semi-Supervised Learning"]
 image: "https://miro.medium.com/max/1050/1*8YalcPbJ1HTkDTXTGoeupg.png"
 visit: http://dlc2.barco.com:3004/
 tags: [featured]

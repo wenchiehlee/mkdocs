@@ -1,7 +1,8 @@
 ---
 title:  "Tensorflow.js POC #8: Super Resolution with waifu2x"
 date: 2020-06-19
-categories: [ Tensorflow, "Pre-trained Model", Image to Image Transformer ]
+categories: [AI]
+tags: [ Tensorflow, "Pre-trained Model", Image to Image Transformer ]
 image: "/assets/images/avatar255x287-waifu2x_artwork.png"
 visit: "https://wiki.barco.com/display/~WJLEE/Super+Resolution+of+Images"
 layout: post
