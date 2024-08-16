@@ -12,7 +12,20 @@ copyright: Copyright &copy; 2016 - 2024 Wen-Chieh Lee
 # Configuration
 theme:
   name: 'material'
-  language: zh-TW
+  palette:
+    - scheme: default
+      primary: light green
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  #language: zh-TW
   #custom_dir: material/.overrides
   features:
     - announce.dismiss
@@ -39,23 +52,10 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/images/w.png
   icon:
     logo: logo
     tag:
@@ -164,6 +164,4 @@ markdown_extensions:
   - pymdownx.tilde
 # Page tree
 nav:
-  - Home: index.md
-  - Blog:
-    - blog/index.md
+  
