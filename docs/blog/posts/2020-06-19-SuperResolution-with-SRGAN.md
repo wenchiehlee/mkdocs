@@ -1,7 +1,8 @@
 ---
 title:  "Max POC #2: Super Resolution with SRGAN"
 date: 2020-06-19
-categories: ["Pre-trained Model", "Image to Image Transformer" ]
+categories: [AI]
+tags: ["Pre-trained Model", "Image to Image Transformer" ]
 image: "/assets/images/1096x632_PPT_image-SRGAN.png"
 visit: "https://wiki.barco.com/display/~WJLEE/Super+Resolution+of+Images"
 ---

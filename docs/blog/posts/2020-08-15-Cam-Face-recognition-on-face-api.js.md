@@ -1,7 +1,8 @@
 ---
 title:  "Tensorflow.js POC #12: Cam Face-recognition on face-api.js #2"
 date: 2020-06-23
-categories: [ Tensorflow, "Pre-trained Model", "Face Recognition", "Reinforcement Learning" ]
+categories: [AI]
+tags: [ Tensorflow, "Pre-trained Model", "Face Recognition", "Reinforcement Learning" ]
 image: "/assets/images/16.07.2020_10.56.29_REC.png"
 visit: "http://dlc.barco.com:3001/webcam_face_recognition"
 authors: [wjlee]

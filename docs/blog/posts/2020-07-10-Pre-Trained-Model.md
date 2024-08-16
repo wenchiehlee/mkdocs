@@ -1,7 +1,8 @@
 ---
 title:  "Pre-trained Model, and What is Next Steps"
 date: 2020-07-10
-categories: ["Pre-trained Model"]
+categories: [AI]
+tags: ["Pre-trained Model"]
 image: "/assets/images/DLC-mindmap.png"
 authors: [wjlee]
 ---

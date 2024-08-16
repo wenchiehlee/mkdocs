@@ -1,7 +1,8 @@
 ---
 title:  "Tensorflow.js POC #9: WhoIsTalking Based on Facemesh"
 date: 2020-06-11
-categories: [ Tensorflow, "Pre-trained Model", "Image Feature Extraction", "Supervised Learning"]
+categories: [AI]
+tags: [ Tensorflow, "Pre-trained Model", "Image Feature Extraction", "Supervised Learning"]
 image: "/assets/images/09.06.2020_12.25.26_REC.png"
 visit: "http://dlc.barco.com:1234/"
 tags: [featured]

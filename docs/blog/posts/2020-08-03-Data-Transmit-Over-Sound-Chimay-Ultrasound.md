@@ -1,7 +1,8 @@
 ---
 title:  "Data Trasmit Over Sound- Chimay Ultrasound"
 date: 2020-07-28
-categories: [Audio Synthesis]
+categories: [AI]
+tags: [Audio Synthesis]
 image: assets/images/ultrasonic.png
 visit:
 authors: [wjlee]

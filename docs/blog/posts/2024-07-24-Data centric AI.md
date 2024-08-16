@@ -1,7 +1,7 @@
 ---
 title:  "Data centric AI"
 date: 2024-07-24
-categories: ["GenAI","Data"]
+categories: [Data]
 image: https://github.com/daochenzha/data-centric-AI/raw/main/imgs/data-centric.png
 visit:
 tags: [featured]

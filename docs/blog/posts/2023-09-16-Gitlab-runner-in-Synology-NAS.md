@@ -1,7 +1,8 @@
 ---
 title:  "Gitlab-runner in Synology NAS"
 date: 2023-09-16
-categories: ["Synology","DevOps"]
+categories: [DevOps]
+tags:[Synology]
 image: "https://kb.synology.com/_images/autogen/Quick_Start_Synology_Drive_admin/1.png"
 visit:
 authors: [wjlee]

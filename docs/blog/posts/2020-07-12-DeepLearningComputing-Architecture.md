@@ -1,7 +1,8 @@
 ---
 title:  "Deep Learning Computing Architecture"
 date: 2020-07-12
-categories: [Pre-trained Model]
+categories: [AI]
+tags: [Pre-trained Model]
 image: "/assets/images/DLC-mindmap.png"
 visit: "http://dlc.barco.com/facemesh/"
 ---

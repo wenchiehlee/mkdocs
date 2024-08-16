@@ -1,7 +1,7 @@
 ---
 title:  "3D Model from A Image"
 date: 2021-04-28
-categories: ["3D"]
+categories: [3D]
 image: "https://www.revopoint3d.com/wp-content/uploads/2020/03/2.png"
 visit:
 tags: [featured]

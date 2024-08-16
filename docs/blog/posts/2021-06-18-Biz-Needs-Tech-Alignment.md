@@ -1,7 +1,7 @@
 ---
 title:  "Biz-Needs-Tech-Alignment"
 date: 2021-06-13
-categories: ["DevOps"]
+categories: [DevOps]
 image: "https://miro.medium.com/max/3600/1*qxFrRU5Ftk7S3lo06brQ-g.png"
 visit:
 tags: [featured]

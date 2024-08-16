@@ -1,7 +1,8 @@
 ---
 title:  "Supervised Learning vs. Semi-Supervised Learning vs. Reenforcement Learning"
 date: 2020-07-13
-categories: ["Unsupervised Learning", "Supervised Learning", "Semi-Supervised Learning", "Reinforcement Learning"]
+categories: [AI]
+tags: ["Unsupervised Learning", "Supervised Learning", "Semi-Supervised Learning", "Reinforcement Learning"]
 image: assets/images/Supervised-Unsupervised-Semi-Supervised-Reforcement-Learning.jpg
 visit:
 authors: [wjlee]

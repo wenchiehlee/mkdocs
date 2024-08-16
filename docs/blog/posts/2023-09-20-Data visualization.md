@@ -1,7 +1,7 @@
 ---
 title:  "Data visualization"
 date: 2023-09-20
-categories: ["Data"]
+categories: [Data]
 image: 
 visit:
 authors: [wjlee]

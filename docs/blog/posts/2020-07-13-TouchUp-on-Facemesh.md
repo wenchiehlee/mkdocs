@@ -1,7 +1,8 @@
 ---
 title:  "Tensorflow.js POC #10: Tochup Based on Facemesh"
 date: 2020-07-13
-categories: ["Pre-trained Model"]
+categories: [AI]
+tags: ["Pre-trained Model"]
 image: "/assets/images/DLC-mindmap.png"
 visit: "http://dlc.barco.com/facemesh/"
 authors: [wjlee]
