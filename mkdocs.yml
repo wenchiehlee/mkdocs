@@ -12,6 +12,7 @@ copyright: Copyright &copy; 2016 - 2024 Wen-Chieh Lee
 # Configuration
 theme:
   name: 'material'
+  language: zh-TW
   #custom_dir: material/.overrides
   features:
     - announce.dismiss
