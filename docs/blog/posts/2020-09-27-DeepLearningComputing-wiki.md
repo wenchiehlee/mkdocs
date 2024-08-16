@@ -12,6 +12,7 @@ authors: [wjlee]
 
 ## Google Slides presentation in a Jekyll post 
 
+```{r echo=FALSE, eval=FALSE}
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
@@ -20,9 +21,10 @@ authors: [wjlee]
   <iframe src="https://docs.google.com/presentation/d/1F0DQTNPg3YG_By6LMGcgwT3icJ3eMhCiupAZm76CIfE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1024px" height="768px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <!-- Google embed ends -->
 </div>
+```
 
 ## Onedrive Powerpoint presentation in a Jekyll post 
-
+```{r echo=FALSE, eval=FALSE}
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
@@ -32,7 +34,7 @@ authors: [wjlee]
 <!-- MS embed ends -->
 </div>
 
-
+```
 
 ## References
 * [Jekyll Slides](https://bleonard.com/jekyll-slides-308f736f719a)
