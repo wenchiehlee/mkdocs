@@ -2,7 +2,7 @@
 title:  "NLP- Word Understanding"
 date: 2021-05-13
 categories: [AI]
-tags:[NLP]
+tags: [NLP]
 image: "https://lena-voita.github.io/resources/lectures/word_emb/analysis/king_example-min.png"
 visit:
 tags: [featured]
