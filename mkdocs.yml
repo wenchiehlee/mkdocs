@@ -1,10 +1,14 @@
 site_name: Wen-Chieh Lee
-site_description: 'Wen-Chieh Lee mkdocs site'
-site_author: 'Wen-Chieh Lee'
 site_url: 'https://wenchiehlee.github.io/mkdocs'
+site_author: 'Wen-Chieh Lee'
+site_description: 'Wen-Chieh Lee mkdocs site'
+
 docs_dir: docs/
+
 repo_name: 'wenchiehlee/mkdocs'
 repo_url: 'https://github.com/wenchiehlee/mkdocs'
+# Copyright
+copyright: Copyright &copy; 2016 - 2024 Wen-Chieh Lee
 # Configuration
 theme:
   name: 'material'
@@ -77,9 +81,9 @@ plugins:
 extra:
   annotate:
     json: [.s2]
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
   analytics:
     feedback:
       title: Was this page helpful?
@@ -162,5 +166,3 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
-
-
