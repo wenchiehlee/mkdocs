@@ -54,11 +54,12 @@ theme:
   icon:
     logo: logo
     tag:
-      3D:     material/video-3d
-      AI:     material/head-snowflake-outline
-      Data:   material/database
-      DevOps: material/dev-to
-      IOT:    material/devices
+      featured: material/text-recognition
+      3D:       material/video-3d
+      AI:       material/head-snowflake-outline
+      Data:     material/database
+      DevOps:   material/dev-to
+      IOT:      material/devices
 # Plugins
 plugins:
   - blog:
