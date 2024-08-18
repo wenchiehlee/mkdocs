@@ -12,7 +12,7 @@ visit: "http://dlc.barco.com:3234"
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/18.09.2020_01.36.06_REC.png)](https://rebrand.ly/dlc_uml_url)
+[![](../../assets/images/18.09.2020_01.36.06_REC.png)](https://rebrand.ly/dlc_uml_url)
 
 ## Avatar Generator with Face-API.js
 

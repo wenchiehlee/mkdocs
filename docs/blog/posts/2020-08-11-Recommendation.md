@@ -13,7 +13,7 @@ authors: [wjlee]
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/02.03.2021_23.55.15_REC.png)]({{site.url}}{{site.baseurl}}/Recommendation)
+[![](../../assets/images/02.03.2021_23.55.15_REC.png)]({{site.url}}{{site.baseurl}}/Recommendation)
 
 pinreset and its [pin alogirthm](https://www.pinterest.com/pin/149815125082705257/)
 
@@ -22,7 +22,7 @@ pinreset and its [pin alogirthm](https://www.pinterest.com/pin/14981512508270525
 
 Here gives a demo for amplitude cohort download and query [JSON-Server for Amplitude User Cohorts](http://dlc2.barco.com:3004/)
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/11.03.2021_14.18.59_REC.png)]({{site.url}}{{site.baseurl}}/Recommendation)
+[![](../../assets/images/11.03.2021_14.18.59_REC.png)]({{site.url}}{{site.baseurl}}/Recommendation)
 
 
 ## References

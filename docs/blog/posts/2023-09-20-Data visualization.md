@@ -1,6 +1,7 @@
 ---
 title:  "Data visualization"
 date: 2023-09-20
+draft: true
 categories: [Data]
 image: 
 visit:

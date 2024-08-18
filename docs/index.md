@@ -1,40 +1,12 @@
-## Sample
+---
+icon: material/home-circle
+---
+# AI
 
-One more, finally. Or not? :)
+## Overview
 
-Now:
-
-```
-$ some 
-```
-
-Look what she said:
-
-> This is it!
-
-### Subtitle
-
-And now this:
-
-- One
-- Two
-- Three
+[![](https://www.plantuml.com/plantuml/svg/RP3DIWD148JlynGjtlQaUF2Q7q42GHSIl8Y7TgVO39lfNdjwYNbxLr0P8SVwlg8RQb6SpNEIc7aCLtv01hcUmsv8Ch9nfeAF2T9XQQQd_I5rWw0KkWlbhzAoUUhIoE8jnvYaf_jAh_Jp5z_UL9mxLzlv-GZY4ufcL7AB7X9NQX5s-UixTqDlEabSwr6Dt5ZAh20UGlDwhNFkyKRBJMYgkDOyJWwZbrIIokpeWPr3KvSsp_jlyRHj__D7o7nk0Oa_ctq1)](https://www.plantuml.com/plantuml/uml/RP3DIWD148JlynGjtlQaUF2Q7q42GHSIl8Y7TgVO39lfNdjwYNbxLr0P8SVwlg8RQb6SpNEIc7aCLtv01hcUmsv8Ch9nfeAF2T9XQQQd_I5rWw0KkWlbhzAoUUhIoE8jnvYaf_jAh_Jp5z_UL9mxLzlv-GZY4ufcL7AB7X9NQX5s-UixTqDlEabSwr6Dt5ZAh20UGlDwhNFkyKRBJMYgkDOyJWwZbrIIokpeWPr3KvSsp_jlyRHj__D7o7nk0Oa_ctq1)
 
 
-#### As well
-
-#### As this
-
-### Another
-
-[a link](https://aws.com)
-
-More?
-
-
-Can we now have `the build`?
-
-NOW!
-
-
-Not gonna work, is it?
+## Donkey Car
+## References

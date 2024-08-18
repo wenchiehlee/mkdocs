@@ -7,16 +7,19 @@ visit: "https://wenchiehlee.github.io/DeepLearningComputing-CI-CD/"
 toc: true
 authors: [wjlee]
 ---
+# Deep Learning Computing CI/CD Framework
+## Overview
 
-[![](http://cdn-0.plantuml.com/plantuml/png/LT2zJiD03C3n_Px2Y2qBxS3UDbag8H4fY0KOJCuaf-Rim-TJoTjJ93wEzVUtPScxRAWM0_k8oLtPJ970P7N3AN12nGYPtWlnI7jLEJ_COJmnvGnRbtz7UbGBOqZ8rgFtWIUuhV91FdvukwaSHnCTR5q8y4nP8bNnZYPYVn3rf7zNDyurJzUYo1EzmFxecWPQYQaOAJo678J_qRxu85_IeQ5hgjtsUDDs5wcelsyp2CCmYneyysinU2lB0kqwBdI1Zj8YQoIsx7R4_ljldm00)](http://www.plantuml.com/plantuml/uml/LT2zJiD03C3n_Px2Y2qBxS3UDbag8H4fY0KOJCuaf-Rim-TJoTjJ93wEzVUtPScxRAWM0_k8oLtPJ970P7N3AN12nGYPtWlnI7jLEJ_COJmnvGnRbtz7UbGBOqZ8rgFtWIUuhV91FdvukwaSHnCTR5q8y4nP8bNnZYPYVn3rf7zNDyurJzUYo1EzmFxecWPQYQaOAJo678J_qRxu85_IeQ5hgjtsUDDs5wcelsyp2CCmYneyysinU2lB0kqwBdI1Zj8YQoIsx7R4_ljldm00)
+[![](https://www.plantuml.com/plantuml/svg/RT0nJpCn3CRnFP_2hzuj4uY1jUrrGK9gfKCimE0cvYwwn0wEZtBVdY81ke7rztyaIzuqGxMIE1Qixf-DL0XC5jTFYIig5cZqDXC7sghA-M5COM9g3MvS-vqSKIs5L97jY34c7k1sbNVoySFNLol7OAAzBPa0pzIaq2hUqq0STwAHzE-h9mpJe39px2IBWYbokoHYSyu__HT57kW5jdVEU-YarDb8uJ6r9Fn5UpHqVhNSq_kXDkVNvltnq7dVG1ZwKTJWcK-pmUkSCtHBo7I1FTKiIo6svZR4yVkXdm00)](https://www.plantuml.com/plantuml/uml/RT0nJpCn3CRnFP_2hzuj4uY1jUrrGK9gfKCimE0cvYwwn0wEZtBVdY81ke7rztyaIzuqGxMIE1Qixf-DL0XC5jTFYIig5cZqDXC7sghA-M5COM9g3MvS-vqSKIs5L97jY34c7k1sbNVoySFNLol7OAAzBPa0pzIaq2hUqq0STwAHzE-h9mpJe39px2IBWYbokoHYSyu__HT57kW5jdVEU-YarDb8uJ6r9Fn5UpHqVhNSq_kXDkVNvltnq7dVG1ZwKTJWcK-pmUkSCtHBo7I1FTKiIo6svZR4yVkXdm00)
 
-### POCs on Small changes from Open Source
+
+## POCs on Small changes from Open Source
 
 1. Non-GPL license Open source projects are good basements to add value as POC espcially on Deep Learning areas.
 
 ![](https://miro.medium.com/max/945/1*hcER5n2X-fmtykty3oojUg.png)
 
-### POCs on Short but Full Cycle Deployments
+## POCs on Short but Full Cycle Deployments
 
 1. Projects use git/yaml script to setup CI/CD pipeline and deployment flows.
 
@@ -26,24 +29,24 @@ authors: [wjlee]
 
 ![](https://www.openshift.com/hubfs/DRAFT%20Copy%20of%20Installing%20Runner%20Blog-4.png)
 
-### Deployments based on Docker/K8s for Scalablity, Portablity
+## Deployments based on Docker/K8s for Scalablity, Portablity
 
 1. Docker/K8s based deployment for scaiblity, portablity
 
 ![](https://miro.medium.com/max/945/1*qehZ1KLTEO6y8tcCwlwWzQ.png)
 
-### All POCs setups as a Ecosystem
+## All POCs setups as a Ecosystem
 
-### Live sites
+## Live sites
 
-#### Gitlab server
+### Gitlab server
 
 |Git Repo| Status | Progress  | Comments|
 |--| ------ | ------ | -- |
 | [![gitlab](https://img.shields.io/badge/project-gitlab-green)]() | [![status](https://gitlab.com/barco.co/gitlab/badges/master/pipeline.svg)](https://gitlab.com/barco.co/gitlab/pipelines) | [![progress](https://img.shields.io/badge/progress-beta-green)](https://tailab.dlc.com:9443) User=root <br> [![gitlab grafana](https://img.shields.io/badge/grafana_of_gitlab-beta-green)](https://tailab.dlc.com:9443/-/grafana)|
 
 
-#### [Current runners](https://tailab.dlc.com:9443/admin/runners)
+### [Current runners](https://tailab.dlc.com:9443/admin/runners)
 
 | Servers | [![Runner](https://img.shields.io/badge/Runner-gree?logo=gitlab)](https://tailab.dlc.com:9443/admin/runners)  | OS    |[![tag](https://img.shields.io/badge/Tag-blue?logo=Google-tag-Manager)](https://tailab.dlc.com:9443/admin/runners)| Monitoring|
 |---------|---------|-------|---|--------------------|
@@ -51,29 +54,29 @@ authors: [wjlee]
 | [![dlc1.dlc.com](https://img.shields.io/badge/dlc1.dlc.com-purple?logo=nginx)](http://dlc1.dlc.com)                   | dlc1          | Ubuntu18.04      |dlc1, ubuntu, GPU| [![Node](https://img.shields.io/badge/Node-green?logo=grafana)](https://dlc.dlc.com:3000/d/Xhz-2PMWz/linux?orgId=1) [![GPU](https://img.shields.io/badge/GPU-gray?logo=nVidia)](https://dlc.dlc.com:3000/d/whRCVvEWz/nvidia-gpu?orgId=1) |
 | [![dlc2.dlc.com](https://img.shields.io/badge/dlc2.dlc.com-green?logo=nginx)](http://dlc2.dlc.com)                   | dlc2          | Ubuntu18.04      |dlc2, ubuntu| [![Node](https://img.shields.io/badge/Node-green?logo=grafana)](https://dlc.dlc.com:3000/d/Xhz-2PMWz/linux?orgId=1) |
 
-### How to setup dlc/dlc1 to run a TensorFlow GPU project
+## How to setup dlc/dlc1 to run a TensorFlow GPU project
 
-#### with Gitlab runner
+### with Gitlab runner
 
-##### Step 1: Add project to Gitlab https://tailab.dlc.com:9443/deeplearningcomputing
+#### Step 1: Add project to Gitlab https://tailab.dlc.com:9443/deeplearningcomputing
 
-##### Step 1.5: If your project is in https://git.dlc.com/
+#### Step 1.5: If your project is in https://git.dlc.com/
 
 You will need to import your project for gitlab CI/CD only by add your project into https://tailab.dlc.com:9443/root/git-sync-mirror. After that, bitbucket code will be automatically syced to gitlab server.
 
-##### Step 2: Enable dlc gitlab runner and setup CI/CD
+#### Step 2: Enable dlc gitlab runner and setup CI/CD
 
 
-##### Step 3: See the CI/CD results
+#### Step 3: See the CI/CD results
 
-#### with ssh or RDP + admin account
+### with ssh or RDP + admin account
 
 Step 1: Check with wj.lee@dlc.com and ask for admin account of dlc
 
 Step 2: With ssh or RPD to login to dlc
 
 
-### How to setup your runner- How to install gitlab-runner in your ubuntu
+## How to setup your runner- How to install gitlab-runner in your ubuntu
 
 Step 1: 
 

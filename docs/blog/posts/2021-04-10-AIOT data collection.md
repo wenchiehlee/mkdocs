@@ -27,7 +27,7 @@ andd an example as
 temperature,device=device1,buidling=b1 internal=80,external=18 1443782126
 ```
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/13.04.2021_10.35.03_REC.png)]()
+[![](../../assets/images/13.04.2021_10.35.03_REC.png)]()
 
 
 

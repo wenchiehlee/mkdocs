@@ -11,8 +11,8 @@ layout: post
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.event.move.js"></script>
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.twentytwenty.js"></script>
+    <script src="../../assets/plugins/jquery.event.move.js"></script>
+    <script src="../../assets/plugins/jquery.twentytwenty.js"></script>
     <script>
       $(function()
       {
@@ -53,28 +53,28 @@ waifu2x-photo = waifu2x-artwork_y = waifu2x-artwork > lanczos3 > bicubic
 #### Quality comparison: bicubic < waifu2x_artwork
 ```{r echo=FALSE, eval=FALSE}
 {% slider2020 %}
-  ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-bicubic.png)
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork.png)
+  ![bicubic](../../assets/images/avatar255x287-bicubic.png)
+  ![waifu2x_artwork](../../assets/images/avatar255x287-waifu2x_artwork.png)
 {% endslider2020 %}
 
 #### Quality comparison: lanczos3 < waifu2x_artwork
 {% slider2020 %}
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-lanczos3.png)
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork.png)
+  ![lanczos3](../../assets/images/avatar255x287-lanczos3.png)
+  ![waifu2x_artwork](../../assets/images/avatar255x287-waifu2x_artwork.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x_artwork = waifu2x_artwork_y
 
 {% slider2020 %}
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork.png)
-  ![waifu2x_artwork_y]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork_y.png)
+  ![waifu2x_artwork](../../assets/images/avatar255x287-waifu2x_artwork.png)
+  ![waifu2x_artwork_y](../../assets/images/avatar255x287-waifu2x_artwork_y.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x_artwork = waifu2x_photo
 
 {% slider2020 %}
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_artwork.png)
-  ![waifu2x_photo]({{ site.url }}{{ site.baseurl }}/assets/images/avatar255x287-waifu2x_photo.png)
+  ![waifu2x_artwork](../../assets/images/avatar255x287-waifu2x_artwork.png)
+  ![waifu2x_photo](../../assets/images/avatar255x287-waifu2x_photo.png)
 {% endslider2020 %}
 
 ### lena400x400
@@ -86,36 +86,36 @@ lena400x400 is a 400x400 size JPG with natural human. We use it to identify the 
 #### Quality comparison: bicubic = lanczos3
 
 {% slider2020 %}
-  ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-bicubic.png)
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-lanczos3.png)
+  ![bicubic](../../assets/images/lena400x400-bicubic.png)
+  ![lanczos3](../../assets/images/lena400x400-lanczos3.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x_artwork > lanczos3
 
 {% slider2020 %}
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_artwork.png)
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-lanczos3.png)
+  ![waifu2x_artwork](../../assets/images/lena400x400-waifu2x_artwork.png)
+  ![lanczos3](../../assets/images/lena400x400-lanczos3.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x_artwork > waifu2x_photo
 
 {% slider2020 %}
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_artwork.png)
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_photo.png)
+  ![waifu2x_artwork](../../assets/images/lena400x400-waifu2x_artwork.png)
+  ![lanczos3](../../assets/images/lena400x400-waifu2x_photo.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x_artwork = waifu2x_artwork_y
 
 {% slider2020 %}
-  ![waifu2x_artwork]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_artwork.png)
-  ![waifu2x_artwork_y]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_artwork_y.png)
+  ![waifu2x_artwork](../../assets/images/lena400x400-waifu2x_artwork.png)
+  ![waifu2x_artwork_y](../../assets/images/lena400x400-waifu2x_artwork_y.png)
 {% endslider2020 %}
 
 #### Quality comparison: lanczos3 < waifu2x_photo
 
 {% slider2020 %}
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-lanczos3.png)
-  ![waifu2x_photo]({{ site.url }}{{ site.baseurl }}/assets/images/lena400x400-waifu2x_photo.png)
+  ![lanczos3](../../assets/images/lena400x400-lanczos3.png)
+  ![waifu2x_photo](../../assets/images/lena400x400-waifu2x_photo.png)
 {% endslider2020 %}
 ```
 ## Next step

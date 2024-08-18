@@ -1,6 +1,7 @@
 ---
 title:  "AIOT data collection- Part 4- Alert"
 date: 2021-07-29
+draft: true
 categories: [Data]
 image: "https://newrelic.com/sites/default/files/wp_blog_inline_files/telegraf1.png"
 visit:

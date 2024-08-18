@@ -1,6 +1,7 @@
 ---
 title:  "Data centric AI"
 date: 2024-07-24
+draft: true
 categories: [Data]
 tags: [featured]
 icon: material/database

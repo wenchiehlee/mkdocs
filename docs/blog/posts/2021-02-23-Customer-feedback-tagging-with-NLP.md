@@ -12,11 +12,11 @@ authors: [wjlee]
 
 ## Project
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/02.03.2021_16.44.20_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
+[![](../../assets/images/02.03.2021_16.44.20_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
 
 With the data pipeline below to collect, pre-process, feature-engineer, NLP alogorithm applied to provide useful dashboard for analysis and further actions.
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/09.03.2021_13.14.24_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
+[![](../../assets/images/09.03.2021_13.14.24_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
 
 ### Steps
 
@@ -65,7 +65,7 @@ Data mining or ETL (extract-transform-load) process to collect a corpus of unstr
 * Long Short-Term Memory Network: Type of recurrent neural networks for machine translation used in Google Translate.
 
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/24.03.2021_20.03.33_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
+[![](../../assets/images/24.03.2021_20.03.33_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
 
 
 ## Scope
@@ -99,7 +99,7 @@ Data mining or ETL (extract-transform-load) process to collect a corpus of unstr
 
 A high level view of generic model and the refine model in the whole process.
 
-[![]({{site.url}}{{site.baseurl}}/assets/images/08.07.2021_15.44.16_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
+[![](../../assets/images/08.07.2021_15.44.16_REC.png)]({{site.url}}{{site.baseurl}}/Customer-feedback-tagging-with-NLP/)
 
 The detailed NLP refinement model is as below to improve the models of NER Tagging in spaCy model on user feedback.
 

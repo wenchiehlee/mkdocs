@@ -1,6 +1,7 @@
 ---
 title:  "Blog with Jekyll and Github pages"
 date: 2024-07-17
+draft: true
 categories: [DevOps]
 image: 
 visit:
@@ -15,4 +16,4 @@ Recently, an excel data with many cells need to query from chatgpt and feed its 
 * ChatGPT API Key
 
 ## Refrences
-* [How to Integrate ChatGPT with Google Sheets Using Google Apps Script](freecodecamp.org/news/create-chat-gpt-formulas-in-google-sheets/)
+* [How to Integrate ChatGPT with Google Sheets Using Google Apps Script](freecodecamp.org/news/create-chat-gpt-formulas-in-goog

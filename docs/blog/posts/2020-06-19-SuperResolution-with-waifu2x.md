@@ -11,8 +11,8 @@ layout: post
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.event.move.js"></script>
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.twentytwenty.js"></script>
+    <script src="../../assets/plugins/jquery.event.move.js"></script>
+    <script src="../../assets/plugins/jquery.twentytwenty.js"></script>
     <script>
       $(function()
       {
@@ -65,51 +65,51 @@ SRMD-NCNN = waifu2x-NCNN = waifu2x > lanczos3 > bicubic > Anime4K > SRGAN (bicub
 #### Quality comparison: bicubic < waifu2x
 ```{r echo=FALSE, eval=FALSE}
 {% slider2020 %}
-  ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-bicubic.png)
-  ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
+  ![bicubic](../../assets/images/1096x632_PPT_image-bicubic.png)
+  ![waifu2x](../../assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
 {% endslider2020 %}
 
 #### Quality comparison: lanczos3 < waifu2x
 {% slider2020 %}
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-lanczos3.png)
-  ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
+  ![lanczos3](../../assets/images/1096x632_PPT_image-lanczos3.png)
+  ![waifu2x](../../assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
 {% endslider2020 %}
 
 #### Quality comparison: SRGAN < waifu2x. 
 SRGAN is GG
 
 {% slider2020 %}
-  ![SRGAN]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-SRGAN.png)
-  ![waifu2x-NCNN]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
+  ![SRGAN](../../assets/images/1096x632_PPT_image-SRGAN.png)
+  ![waifu2x-NCNN](../../assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x = waifu2x-NCNN
 
 {% slider2020 %}
-  ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
-  ![waifu2x-NCNN]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
+  ![waifu2x](../../assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
+  ![waifu2x-NCNN](../../assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
 {% endslider2020 %}
 
 #### Quality comparison: waifu2x = SRMD-NCNN
 
 {% slider2020 %}
-  ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
-  ![SRMD-NCNN]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_SRMD-NCNN-Vulkan.png)
+  ![waifu2x](../../assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
+  ![SRMD-NCNN](../../assets/images/1096x632_PPT_image_SRMD-NCNN-Vulkan.png)
 {% endslider2020 %}
 
 
 #### Quality comparison: waifu2x > Anime4K
 
 {% slider2020 %}
-  ![waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
-  ![Anime4K]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Anime4K.png)
+  ![waifu2x](../../assets/images/1096x632_PPT_image_waifu2x_art_noise1_scale_tta_1.png)
+  ![Anime4K](../../assets/images/1096x632_PPT_image_Anime4K.png)
 {% endslider2020 %}
 
 #### Quality comparison: bicubic > Anime4K
 
 {% slider2020 %}
-  ![bicubic]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-bicubic.png)
-  ![Anime4K]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Anime4K.png)
+  ![bicubic](../../assets/images/1096x632_PPT_image-bicubic.png)
+  ![Anime4K](../../assets/images/1096x632_PPT_image_Anime4K.png)
 {% endslider2020 %}
 ```
 
@@ -133,8 +133,8 @@ To enable it in your post, please add the following code into your markdown docu
 
 ``` js
 {% slider2020 %}
-  ![lanczos3]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image-lanczos3.png)
-  ![Waifu2x]({{ site.url }}{{ site.baseurl }}/assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
+  ![lanczos3](../../assets/images/1096x632_PPT_image-lanczos3.png)
+  ![Waifu2x](../../assets/images/1096x632_PPT_image_Waifu2x-NCNN-Vulkan.png)
 {% endslider2020 %}
 ```
 
@@ -144,8 +144,8 @@ After above, you can have first version of image compariosn slider. But, if you 
 <body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.event.move.js"></script>
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/plugins/jquery.twentytwenty.js"></script>
+    <script src="../../assets/plugins/jquery.event.move.js"></script>
+    <script src="../../assets/plugins/jquery.twentytwenty.js"></script>
     <script>
       $(function()
       {

@@ -53,11 +53,13 @@ theme:
     - toc.follow
     # - toc.integrate
   font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/images/w.png
+    text:       Roboto
+    code:       Roboto Mono
+  favicon:      assets/images/w.png
   icon:
-    logo: logo
+    logo:       material/library
+    previous:   fontawesome/solid/angle-left
+    next:       fontawesome/solid/angle-right
     tag:
       featured: material/pin
       3D:       material/video-3d
@@ -70,14 +72,33 @@ plugins:
   - blog:
       blog_dir: blog
       blog_toc: true
+
       authors: true
       authors_file: "{blog}/.authors.yml"
+
+      draft: true
+      draft_if_future_date: true
+
+      archive: true
+      archive_name: Archive
+      archive_date_format: 'yyyy/MM'
+      archive_url_format: "{date}"
+      archive_url_date_format: yyyy/MM
+      #archive_pagination: true
+      #archive_pagination_per_page: 5
+      archive_toc: true
+
+      #categories_pagination_per_page: 5
+
+      post_url_date_format: yyyy/MM
+      post_date_format: medium
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
   - rss
-  - tags
+  - tags:
+      tags_file: tag/index.md
 # Customization
 extra:
   annotate:
@@ -164,4 +185,10 @@ markdown_extensions:
   - pymdownx.tilde
 # Page tree
 nav:
-  
+  - Home: index.md
+  - Blog: 
+    - blog/index.md
+  - Tags: 
+    - tag/index.md
+  - 'About this web': 
+    - about/index.md
