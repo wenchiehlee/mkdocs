@@ -126,10 +126,13 @@ extra:
       link: https://github.com/wenchiehlee
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wen-chieh-lee-8a242b50/
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=YdrASjsAAAAJ
     - icon: fontawesome/brands/researchgate
       link: https://www.researchgate.net/profile/Wen-Chieh-Lee-4
-    - icon: fontawesome/brands/google-scholar
-      link: https://scholar.google.com/citations?user=YdrASjsAAAAJ&hl=zh-TW
+    #- icon: simple/huggingface
+    #  link: https://huggingface.co/wenchiehlee
+    
 # Extensions
 markdown_extensions:
   - abbr
@@ -186,5 +189,5 @@ nav:
     - blog/index.md
   - Tags: 
     - tag/index.md
-  - 'About this web': 
+  - About: 
     - about/index.md
