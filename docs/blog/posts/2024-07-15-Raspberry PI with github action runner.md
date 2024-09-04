@@ -17,7 +17,7 @@ authors: [wjlee]
 ## Dashboard to overview the runners
 
 
-<iframe width="500px" height="300px" src="https://docs.google.com/spreadsheets/d/1LtxS_ZH3dd5ycHIlkHENfWahl7QCVwYgoXJstf6HzQY/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false"></iframe>
+<iframe width="540px" height="300px" src="https://docs.google.com/spreadsheets/d/1LtxS_ZH3dd5ycHIlkHENfWahl7QCVwYgoXJstf6HzQY/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false"></iframe>
 
 ## Refrences
 * [RaspberryPi+Github Actions+CI/CD](https://pabluc.medium.com/raspberrypi-github-actions-ci-cd-1dc098b4c7d3)
