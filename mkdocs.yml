@@ -94,9 +94,10 @@ plugins:
       post_date_format: medium
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-#  - git-authors
+
   - git-committers:
       repository: wenchiehlee/mkdocs
+  - git-revision-date-localized
   - minify:
       minify_html: true
   - rss
