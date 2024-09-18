@@ -4,7 +4,7 @@ date: 2020-07-10
 categories: [AI]
 tags: ["Pre-trained Model"]
 image: "/assets/images/DLC-mindmap.png"
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

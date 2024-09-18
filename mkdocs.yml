@@ -75,7 +75,6 @@ plugins:
 
       authors: true
       authors_file: "{blog}/.authors.yml"
-      authors_profiles: true
       
       draft: true
       draft_if_future_date: true
@@ -95,6 +94,9 @@ plugins:
       post_date_format: medium
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#  - git-authors
+  - git-committers:
+      repository: wenchiehlee/mkdocs
   - minify:
       minify_html: true
   - rss

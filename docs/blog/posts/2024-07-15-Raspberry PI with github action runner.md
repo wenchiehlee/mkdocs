@@ -5,14 +5,16 @@ draft: true
 categories: [IOT]
 image: https://earthly.dev/blog/assets/images/composite-actions-github/workflow.png
 visit:
-authors: [wjlee]
+authors: [andylee-me,wenchiehlee]
 ---
 
 ## Overview
 
-[![](https://earthly.dev/blog/assets/images/composite-actions-github/workflow.png)]()
 
-[![](https://www.plantuml.com/plantuml/svg/RT31IWD1383X-pn5nDjAmUB1QxUAK11QQ6_Y8Sw4wR0xoPZ9kkxRkuZAWitn_mA1RAgXMauSCXRdF1PBml2Kug04Q-Ukx4oPm6HonovnGSKCbTu7Oa-jgeodS_8TKwrmv-hVoW7Laay5sGuOGk88zmlUokTlNjykEdeJFThK4-18LJ8jy9aYSTYA1jBBLz_GTr5buF0WlIYO8jUPYCtDS_DoFL7VonYLY5-XQTfTqxZLwbz_f8zzgTy6xMv_SXlYyFEcBm00)](https://www.plantuml.com/plantuml/uml/RT31IWD1383X-pn5nDjAmUB1QxUAK11QQ6_Y8Sw4wR0xoPZ9kkxRkuZAWitn_mA1RAgXMauSCXRdF1PBml2Kug04Q-Ukx4oPm6HonovnGSKCbTu7Oa-jgeodS_8TKwrmv-hVoW7Laay5sGuOGk88zmlUokTlNjykEdeJFThK4-18LJ8jy9aYSTYA1jBBLz_GTr5buF0WlIYO8jUPYCtDS_DoFL7VonYLY5-XQTfTqxZLwbz_f8zzgTy6xMv_SXlYyFEcBm00)
+<figure markdown="span">
+[![](https://www.plantuml.com/plantuml/svg/RT31IWD1383X-pn5nDkMWkB1QxSjGg7IGeiNyH1dmdJOdMJDP5ttxMr5PK5p_Fv088jYg9OJXuoTSrTseanWChf3axX3nGo5tdfYJxMg3CTJyWrJAN3dok_A7jMIJnsoxJ64n17k9taf7pzyUpDnz2PwiB4bm86AP9h4BKNYi1GDfFzVVKNVH9MUmqfQKJ15BkT4REuyi-VhaTfMXgX4_09LLM-goitdVtnDxxkkV3MeDxkZcyrW9RdhZHIUKad25zeYnnuZmQC4QY-oHaDu42MFnH97jo0Etz_y1000)](https://www.plantuml.com/plantuml/uml/RT31IWD1383X-pn5nDkMWkB1QxSjGg7IGeiNyH1dmdJOdMJDP5ttxMr5PK5p_Fv088jYg9OJXuoTSrTseanWChf3axX3nGo5tdfYJxMg3CTJyWrJAN3dok_A7jMIJnsoxJ64n17k9taf7pzyUpDnz2PwiB4bm86AP9h4BKNYi1GDfFzVVKNVH9MUmqfQKJ15BkT4REuyi-VhaTfMXgX4_09LLM-goitdVtnDxxkkV3MeDxkZcyrW9RdhZHIUKad25zeYnnuZmQC4QY-oHaDu42MFnH97jo0Etz_y1000)
+  <figcaption>Figure 1</figcaption>
+</figure>
 
 ## Dashboard to overview the runners
 

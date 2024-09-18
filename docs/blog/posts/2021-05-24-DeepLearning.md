@@ -7,7 +7,7 @@ image: "https://blog.bismart.com/hs-fs/hubfs/02-MachinelearningVSDeeplearning_Me
 visit:
 tags: [featured]
 featured: true
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 ## Data Engineer

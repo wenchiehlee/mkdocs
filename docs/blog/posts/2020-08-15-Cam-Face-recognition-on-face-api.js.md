@@ -5,7 +5,7 @@ categories: [AI]
 tags: [ Tensorflow, "Pre-trained Model", "Face Recognition", "Reinforcement Learning" ]
 image: "/assets/images/16.07.2020_10.56.29_REC.png"
 visit: "http://dlc.barco.com:3001/webcam_face_recognition"
-authors: [wjlee]
+authors: [wenchiehlee]
 image: "https://pic1.xuehuaimg.com/proxy/csdn/https://img-blog.csdnimg.cn/20181106203614588.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5MjQ1MjA3,size_16,color_FFFFFF,t_70"
 visit: "http://dlc.barco.com:3001/webcam_face_recognition"
 ---

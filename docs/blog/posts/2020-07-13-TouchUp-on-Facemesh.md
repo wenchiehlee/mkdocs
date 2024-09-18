@@ -5,7 +5,7 @@ categories: [AI]
 tags: ["Pre-trained Model"]
 image: "/assets/images/DLC-mindmap.png"
 visit: "http://dlc.barco.com/facemesh/"
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

@@ -5,7 +5,7 @@ draft: true
 categories: [GenAI]
 image: https://miro.medium.com/v2/format:webp/1*xIBJPl26sSNuAxPd7BKG3w.jpeg
 visit:
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 ## Overview

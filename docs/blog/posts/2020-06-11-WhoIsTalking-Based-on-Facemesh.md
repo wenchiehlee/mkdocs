@@ -6,7 +6,7 @@ tags: [ Tensorflow, "Pre-trained Model", "Image Feature Extraction", "Supervised
 image: "/assets/images/09.06.2020_12.25.26_REC.png"
 visit: "http://dlc.barco.com:1234/"
 tags: [featured]
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 

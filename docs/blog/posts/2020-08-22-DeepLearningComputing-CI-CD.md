@@ -5,7 +5,7 @@ categories: ["DevOps"]
 image: "https://miro.medium.com/max/945/1*qehZ1KLTEO6y8tcCwlwWzQ.png"
 visit: "https://wenchiehlee.github.io/DeepLearningComputing-CI-CD/"
 toc: true
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 # Deep Learning Computing CI/CD Framework
 ## Overview

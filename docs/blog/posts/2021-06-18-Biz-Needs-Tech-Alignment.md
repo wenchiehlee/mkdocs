@@ -6,7 +6,7 @@ image: "https://miro.medium.com/max/3600/1*qxFrRU5Ftk7S3lo06brQ-g.png"
 visit:
 tags: [featured]
 featured: true
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 **Technology** must align with the goals of **User needs** and **Businees Goals** or it is just a works make things more complicated.

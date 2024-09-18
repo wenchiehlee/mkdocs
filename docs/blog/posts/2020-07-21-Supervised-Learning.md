@@ -5,7 +5,7 @@ categories: [AI]
 tags: ["Unsupervised Learning", "Supervised Learning", "Semi-Supervised Learning", "Reinforcement Learning"]
 image: assets/images/Supervised-Unsupervised-Semi-Supervised-Reforcement-Learning.jpg
 visit:
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 [![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)

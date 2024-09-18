@@ -6,7 +6,7 @@ categories: [AI]
 tags: [ Tensorflow, "Pre-trained Model", "Image Feature Extraction", "Supervised Learning" ]
 image: "../../assets/images/13.05.2020_15.46.28_REC.png"
 visit: "http://dlc.barco.com:1234/"
-authors: [wjlee]
+authors: [wenchiehlee]
 ---
 
 | Git Repo                                                                                                                                         | Status                                                                                                                                                                | Progress                                                                                                                    | Comments                                                     |
