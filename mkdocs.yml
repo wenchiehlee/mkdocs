@@ -75,7 +75,8 @@ plugins:
 
       authors: true
       authors_file: "{blog}/.authors.yml"
-
+      authors_profiles: true
+      
       draft: true
       draft_if_future_date: true
 
