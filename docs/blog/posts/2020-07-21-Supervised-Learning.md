@@ -8,7 +8,6 @@ visit:
 authors: [wenchiehlee]
 ---
 
-[![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)
 
 For deep learning, there are severals ways how the learning can be processed. Here we put a new tag on how a POC or a algorithm learning from the [dataset]({{site.url}}{{site.baseurl}}/dlcv2/Dataset/) with the 4 categories as below:
 

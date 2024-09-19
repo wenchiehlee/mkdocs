@@ -1,12 +1,11 @@
 ---
 title:  "Recommendation"
 date: 2020-08-11
-categories: [AI]
+categories: [AI,Data Forecast]
 tags: [ Pytorch, "Pre-trained Model", Recommendation, "Supervised Learning"]
 
 image: "https://i.pinimg.com/originals/0b/f3/2d/0bf32d3dc6feb3f87b2050c76229a662.png"
 visit: http://dlc2.barco.com:3004/
-tags: [featured]
 featured: true
 authors: [wenchiehlee]
 ---

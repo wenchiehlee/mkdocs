@@ -4,7 +4,6 @@ date: 2021-04-10
 categories: [Data, IOT]
 image: "/assets/images/11.04.2021_19.07.45_REC.png"
 visit: "https://wenchiehlee.github.io/AIOT-data-collection/"
-tags: [featured]
 featured: true
 authors: [wenchiehlee]
 ---

@@ -5,7 +5,6 @@ categories: [AI]
 tags: ["Deep Learning"]
 image: "https://blog.bismart.com/hs-fs/hubfs/02-MachinelearningVSDeeplearning_Mesa%20de%20trabajo%201%20copia%202_Mesa%20de%20trabajo%201%20copia%202.jpg?width=1755&name=02-MachinelearningVSDeeplearning_Mesa%20de%20trabajo%201%20copia%202_Mesa%20de%20trabajo%201%20copia%202.jpg"
 visit:
-tags: [featured]
 featured: true
 authors: [wenchiehlee]
 ---

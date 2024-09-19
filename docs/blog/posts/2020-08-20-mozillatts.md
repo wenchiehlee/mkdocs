@@ -1,5 +1,5 @@
 ---
-title:  "Pytorch POC #3: MozzilaTTS"
+title:  "Pytorch POC 3: MozzilaTTS"
 date: 2020-08-20
 categories: [AI]
 tags: [ Pytorch, "Pre-trained Model", "Speech Synthesis", "Supervised Learning" ]

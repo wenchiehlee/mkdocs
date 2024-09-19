@@ -1,5 +1,5 @@
 ---
-title:  "Pytorch POC #6: WIFI Indoor Positioning"
+title:  "Pytorch POC 6: WIFI Indoor Positioning"
 date: 2020-09-15
 categories: [ Data, IOT]
 tags: [Tensorflow, "Fine-Tune Model", "WIFI Indoor Positioning", "Supervised Learning"]
