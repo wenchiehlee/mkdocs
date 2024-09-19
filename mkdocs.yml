@@ -97,7 +97,16 @@ plugins:
 
   - git-committers:
       repository: wenchiehlee/mkdocs
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      type: timeago
+      custom_format: "%d. %B %Y"
+      timezone: Asia/Taipei
+      fallback_to_build_date: false
+      enable_creation_date: true
+      exclude:
+          - index.md
+      enabled: true
+      strict: true
   - minify:
       minify_html: true
   - rss
