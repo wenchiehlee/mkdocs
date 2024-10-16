@@ -9,8 +9,16 @@ visit: http://dlc2.barco.com:3004/
 featured: true
 authors: [wenchiehlee]
 ---
+## Overview
 
-[![](https://rebrand.ly/dlc_png_url)](https://rebrand.ly/dlc_uml_url)
+<figure markdown="span">
+[![](https://www.plantuml.com/plantuml/svg/RP1FIpD13CRlyodoyjvsAIWUlFPF4GgL5bgyY8Su4wR3xYHh9kkwtzujg2neJk7t2q_WMHP3jPmuPEoS-sSNoWGcepirYJjKp53ehIVsj5ALuNn9lc4g1UvS-JavebhogKEs8uQGECBzJA_bunlVtimuUXCzsTWIu415CitadY9nM8i6qh-_lg9leahFOIEjA9WYbqaHcvkcVlu_KjlA49M8Nw2gLhkgSei5REdzq9NhjjeTpgwkOIEvwuqKdb99mbUqHuuzHe972TIw-dVS5WtXGPGy5fkIbyJXgyfF)](https://www.plantuml.com/plantuml/uml/RP1FIpD13CRlyodoyjvsAIWUlFPF4GgL5bgyY8Su4wR3xYHh9kkwtzujg2neJk7t2q_WMHP3jPmuPEoS-sSNoWGcepirYJjKp53ehIVsj5ALuNn9lc4g1UvS-JavebhogKEs8uQGECBzJA_bunlVtimuUXCzsTWIu415CitadY9nM8i6qh-_lg9leahFOIEjA9WYbqaHcvkcVlu_KjlA49M8Nw2gLhkgSei5REdzq9NhjjeTpgwkOIEvwuqKdb99mbUqHuuzHe972TIw-dVS5WtXGPGy5fkIbyJXgyfF)
+  <figcaption>Figure 1 DataForecast in AI</figcaption>
+</figure>
+
+
+
+
 
 [![](../../assets/images/02.03.2021_23.55.15_REC.png)]({{site.url}}{{site.baseurl}}/Recommendation)
 
