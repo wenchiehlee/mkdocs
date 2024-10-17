@@ -119,7 +119,7 @@ extra:
     json: [.s2]
   analytics:
     provider: google
-    property: G-7KE0JCF74R
+    property: G-913Z6DSVD2
     feedback:
       title: Was this page helpful?
       ratings:
