@@ -2,7 +2,7 @@
 title:  "Tracking vs. Privacy"
 date: 2021-05-11
 categories: ["Data"]
-image: "https://www.claritysquared.com/img/asset/YXNzZXRzL25pa2UtcmVxdWVzdHMuanBn?fm=webp&w=1686&s=64b836fd2ac14df26f2a4804bdf7cea2"
+image: 
 visit:
 featured: true
 authors: [wenchiehlee]
