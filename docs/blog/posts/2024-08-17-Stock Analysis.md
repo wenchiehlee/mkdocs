@@ -9,6 +9,7 @@ visit:
 featured: true
 pin: true
 authors: [wenchiehlee]
+comments: true
 ---
 
 ## Overview

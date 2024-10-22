@@ -8,6 +8,7 @@ image: https://github.com/daochenzha/data-centric-AI/raw/main/imgs/data-centric.
 visit:
 featured: true
 authors: [wenchiehlee]
+comments: true
 ---
 
 ## Overview
