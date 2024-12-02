@@ -7,11 +7,30 @@ docs_dir: docs/
 
 repo_name: 'wenchiehlee/mkdocs'
 repo_url: 'https://github.com/wenchiehlee/mkdocs'
+edit_uri: edit/main/docs # 編輯按鈕跳轉的連結
 # Copyright
 copyright: Copyright &copy; 2016 - 2024 Wen-Chieh Lee
 # Configuration
 theme:
   name: 'material'
+  custom_dir: docs/overrides #覆寫路徑
+  favicon: assets/images/w.png # 網頁icon
+  font: #谷歌字型，自行搜尋
+    text:       Roboto
+    code:       Roboto Mono
+  #logo: assets/favicon.png #左上角logo，可插入圖片連結
+  icon:
+    repo: fontawesome/brands/github #右上角圖示
+    logo:       material/library
+    previous:   fontawesome/solid/angle-left
+    next:       fontawesome/solid/angle-right
+    tag:
+      featured: material/pin
+      3D:       material/video-3d
+      AI:       material/head-snowflake-outline
+      Data:     material/database
+      DevOps:   material/dev-to
+      IOT:      material/devices
   palette:
     - scheme: default
       primary: light green
@@ -25,60 +44,53 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  #language: zh-TW
-  custom_dir: .overrides
+  #language: zh-TW # 一些提示性的文字會變成中文
   features:
-    - announce.dismiss
+    #- announce.dismiss #呈現可標記為由使用者讀取的臨時公告，可以包含一個用於取消當前公告的按鈕
     - content.action.edit
     - content.action.view
     - content.code.annotate
-    - content.code.copy
+    - content.code.copy #程式碼覆制
     # - content.code.select
-    # - content.tabs.link
+    - content.tabs.link    
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
-    - navigation.footer
-    - navigation.indexes
     # - navigation.instant
+    #- header.autohide  #自動隱藏
+    - navigation.tracking #位址列中的 URL 將自動更新為在目錄中突出顯示的活動錨點
+    - navigation.tabs #頂級部分將呈現在上面視口標題下方的選單層中，但在移動裝置上保持原樣
     # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
+    # - navigation.tabs.sticky  #啟用粘性選項卡後，導航選項卡將鎖定在標題下方，並在向下滾動時始終保持可見
+    - navigation.sections #啟用部分後，頂級部分在邊欄中呈現為1220px以上視口的組，但在移動裝置上保持原樣
+    - navigation.top # 返回頂部的按鈕 在上滑時出現
+    - navigation.footer #頁尾將呈現在邊欄中，但在移動裝置上保持原樣
+    - navigation.expand # 開啟Tab時左側目錄全部展開
+    - navigation.indexes #啟用節索引頁後，可以將文件直接附加到節
+    - search.suggest # 搜尋輸入一些字母時推薦補全整個單詞
+    - search.highlight # 搜尋出的文章關鍵詞加入高亮
+    - search.share #搜尋分享按鈕    
     - toc.follow
     # - toc.integrate
-  font:
-    text:       Roboto
-    code:       Roboto Mono
-  favicon:      assets/images/w.png
-  icon:
-    logo:       material/library
-    previous:   fontawesome/solid/angle-left
-    next:       fontawesome/solid/angle-right
-    tag:
-      featured: material/pin
-      3D:       material/video-3d
-      AI:       material/head-snowflake-outline
-      Data:     material/database
-      DevOps:   material/dev-to
-      IOT:      material/devices
-# Plugins
-plugins:
-  - blog:
+plugins:  
+  - blog: #部落格配置
+      post_date_format: full #時間
       blog_dir: blog
       blog_toc: true
 
       authors: true
-      authors_file: "{blog}/.authors.yml"
-      
+      authors_file: "{blog}/.authors.yml"       
       draft: true
-      draft_if_future_date: true
-
+      draft_if_future_date: true #自動將具有未來日期的帖子標記為草稿
+      post_readtime: true
+      post_readtime_words_per_minute: 265 #計算帖子的閱讀時間時讀者每分鐘預計閱讀的字數
+      post_url_format: "{date}/{slug}"
+      post_url_date_format: yyyy/MM
+      post_date_format: medium
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+      pagination_url_format: "page/{page}"
+      #categories_pagination_per_page: 5
+      authors_file: "{blog}/.authors.yml" #作者資訊
       archive: true
       archive_name: Archive
       archive_date_format: 'yyyy/MM'
@@ -87,17 +99,18 @@ plugins:
       #archive_pagination: true
       #archive_pagination_per_page: 5
       archive_toc: true
-
-      #categories_pagination_per_page: 5
-
-      post_url_date_format: yyyy/MM
-      post_date_format: medium
-  - search:
+  - search: #搜尋配置
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
   - git-committers:
+      enabled: !ENV [CI, false]
       repository: wenchiehlee/mkdocs
+      branch: main
+      exclude:
+        - index.md
+        - tag.md
   - git-revision-date-localized:
+      enabled: !ENV [CI, false]
       type: timeago
       custom_format: "%d. %B %Y"
       timezone: Asia/Taipei
@@ -108,31 +121,47 @@ plugins:
 #          - index.md
       enabled: true
       strict: true
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
           as_creation: date
           as_update: git
   - tags:
-      tags_file: tag/index.md
+      tags_file: tag.md #分類標簽
 # Customization
+
 extra:
+  # alternate:
+  #   - name: 簡體中文
+  #     link: /
+  #     # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #     lang: zh-TW   
+  #   # - name: English
+  #   #   link: /Mkdocs-Wcowin/en/
+  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #   #   lang: en
+  #   # - name: China(TW)
+  #   #   link: /Mkdocs-Wcowin/ZH-TW/
+  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #   #   lang: zh-TW
   annotate:
-    json: [.s2]
+    json: [.s2] 
+  generator: true #是否刪除頁尾顯示“使用 MkDocs 材料製造”
   analytics:
-    provider: google
+    provider: google #谷歌分析
     property: G-913Z6DSVD2
+    # 網頁底部反饋
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: material/emoticon-happy-outline
+        - icon: material/thumb-up-outline #圖示可自定義
           name: This page was helpful
           data: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
+        - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
           note: >- 
@@ -149,22 +178,32 @@ extra:
       link: https://www.researchgate.net/profile/Wen-Chieh-Lee-4
     #- icon: simple/huggingface
     #  link: https://huggingface.co/wenchiehlee
-    
+    - icon: fontawesome/regular/envelope #聯系方式圖示
+      link: mailto:<wenchiehlee1020@gmail.com> #郵件聯系方式
+# cookies設定（可選）
+# consent:
+#   title: Cookie consent
+#   description: >-
+#     我們也使用cookies來識別您的重覆訪問和偏好來衡量我們文件的有效性以及使用者是否找到他們要找的東西。
+#     如果你同意,你可以幫助我們讓我們的網站更好
+
 # Extensions
-markdown_extensions:
+markdown_extensions: #詳見https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - abbr
   - admonition
   - attr_list
   - def_list
   - footnotes
   - md_in_html
+  # - meta # 支援Markdown檔案上方自定義標題標簽等
   - toc:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.caret
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
   #- pymdownx.emoji:
   #    emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -181,6 +220,7 @@ markdown_extensions:
       user: squidfunk
       repo: mkdocs-material
   - pymdownx.mark
+
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       auto_append:
@@ -190,6 +230,24 @@ markdown_extensions:
   #      - name: mermaid
   #        class: mermaid
   #        format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 程式碼塊高亮外掛
+  - pymdownx.arithmatex: # latex支援
+      generic: true
+  - toc:
+      permalink: true # 固定標題位置為當前位置
+  - pymdownx.highlight: # 程式碼塊高亮
+      anchor_linenums: true
+      linenums: true # 顯示行號
+      # auto_title: true # 顯示程式語言名稱
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
@@ -199,12 +257,42 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  # - markdown.extensions.toc:
+  #     slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  #     permalink: "\ue157"
+
+extra_javascript:
+  # - javascripts/extra.js #自定義javascript
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js  # extra的cdn
+  - javascripts/mathjax.js #Latex支援
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 #Latex支援
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #Latex支援
+  # - ckplayer/js/ckplayer.js #播放器配置
+  # - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js  #gitalk支援
+  - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js #忘了
+
+extra_css:
+  - stylesheets/extra.css # 自定義CSS
+  - stylesheets/link.css #友鏈配置
+  - stylesheets/customize.css # 搜尋圓角最佳化
+
+  # - stylesheets/video.css #播放器可選配置
+  # - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.css #gitalk支援
+  # - ckplayer/css/ckplayer.css   #播放器配置
+  - https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css # font-awesome表情支援
+  # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css  #分享支援
+
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css #字型
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css #字型
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css  #字型
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css  #字型
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.2.0/style.min.css
 # Page tree
 nav:
   - Home: index.md
   - Blog: 
     - blog/index.md
   - Tags: 
-    - tag/index.md
+    - tag.md
   - About: 
     - about/index.md
