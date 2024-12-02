@@ -1,6 +1,7 @@
 ---
 title:  "AIOT data collection"
 date: 2021-04-10
+draft: true
 categories: [Data, IOT]
 image: "/assets/images/11.04.2021_19.07.45_REC.png"
 visit: "https://wenchiehlee.github.io/AIOT-data-collection/"

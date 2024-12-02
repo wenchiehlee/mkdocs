@@ -1,6 +1,7 @@
 ---
 title:  "Tracking vs. Privacy"
 date: 2021-05-11
+draft: true
 categories: ["Data"]
 image: 
 visit:

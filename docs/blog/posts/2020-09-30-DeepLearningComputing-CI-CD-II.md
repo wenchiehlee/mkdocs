@@ -1,6 +1,7 @@
 ---
 title:  "Deep Learning Computing CI/CD Framework (II)"
 date: 2020-08-22
+draft: true
 categories: [DevOps]
 image: "https://miro.medium.com/max/945/1*qehZ1KLTEO6y8tcCwlwWzQ.png"
 visit: "http://dlc.barco.com"
