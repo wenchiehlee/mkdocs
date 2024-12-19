@@ -133,25 +133,12 @@ plugins:
 # Customization
 
 extra:
-  # alternate:
-  #   - name: 簡體中文
-  #     link: /
-  #     # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-  #     lang: zh-TW   
-  #   # - name: English
-  #   #   link: /Mkdocs-Wcowin/en/
-  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-  #   #   lang: en
-  #   # - name: China(TW)
-  #   #   link: /Mkdocs-Wcowin/ZH-TW/
-  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-  #   #   lang: zh-TW
   annotate:
     json: [.s2] 
   generator: true #是否刪除頁尾顯示“使用 MkDocs 材料製造”
   analytics:
     provider: google #谷歌分析
-    property: G-913Z6DSVD2
+    property: !ENV GOOGLE_ANALYTICS_KEY
     # 網頁底部反饋
     feedback:
       title: Was this page helpful?
