@@ -14,11 +14,11 @@ copyright: Copyright &copy; 2016 - 2024 Wen-Chieh Lee
 theme:
   name: 'material'
   custom_dir: docs/overrides #覆寫路徑
-  favicon: assets/images/w.png # 網頁icon
+  favicon: assets/images/w-blue.png # 網頁icon
   font: #谷歌字型，自行搜尋
     text:       Roboto
     code:       Roboto Mono
-  logo: assets/images/w.png #左上角logo，可插入圖片連結
+  logo: assets/images/w-blue.png #左上角logo，可插入圖片連結
   icon:
     repo: fontawesome/brands/github #右上角圖示
     logo:       material/library
@@ -33,13 +33,13 @@ theme:
       IOT:      material/devices
   palette:
     - scheme: default
-      primary: light green
-      accent: blue
+      primary: black
+      accent:  light green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: green
+      primary: black
       accent: green
       toggle:
         icon: material/brightness-4
@@ -68,6 +68,7 @@ theme:
     - search.suggest # 搜尋輸入一些字母時推薦補全整個單詞
     - search.highlight # 搜尋出的文章關鍵詞加入高亮
     - search.share #搜尋分享按鈕    
+    - tabs: true
     - toc.follow
     # - toc.integrate
 plugins:  
@@ -179,10 +180,16 @@ markdown_extensions: #詳見https://squidfunk.github.io/mkdocs-material/setup/ex
   - abbr
   - admonition
   - attr_list
+  # - codehilite
+  #     guess_lang=false
   - def_list
   - footnotes
+  - markdown_include.include:
+      base_path: docs
   - md_in_html
-  # - meta # 支援Markdown檔案上方自定義標題標簽等
+  - meta # 支援Markdown檔案上方自定義標題標簽等
+  - neoteroi.cards
+  - neoteroi.timeline
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -192,9 +199,9 @@ markdown_extensions: #詳見https://squidfunk.github.io/mkdocs-material/setup/ex
       smart_enable: all
   - pymdownx.critic
   - pymdownx.details
-  #- pymdownx.emoji:
-  #    emoji_generator: !!python/name:materialx.emoji.to_svg
-  #    emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -212,11 +219,6 @@ markdown_extensions: #詳見https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.snippets:
       auto_append:
         - includes/mkdocs.md
-  #- pymdownx.superfences:
-  #    custom_fences:
-  #      - name: mermaid
-  #        class: mermaid
-  #        format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tilde
   - pymdownx.superfences:
       custom_fences:
@@ -259,6 +261,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js #忘了
 
 extra_css:
+  - stylesheets/timeline.css
+  - stylesheets/cards.css
   - stylesheets/extra.css # 自定義CSS
   - stylesheets/link.css #友鏈配置
   - stylesheets/customize.css # 搜尋圓角最佳化
