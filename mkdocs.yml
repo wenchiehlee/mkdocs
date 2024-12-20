@@ -281,9 +281,7 @@ extra_css:
 # Page tree
 nav:
   - Home: index.md
-  - Blog: 
-    - blog/index.md
-  - Tags: 
-    - tag.md
-  - About: 
-    - about/index.md
+  - Blog: blog/index.md
+  - Tags: tag.md
+  - Links: about/link.md
+  - About: about/index.md
