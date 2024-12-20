@@ -6,8 +6,8 @@ icon: material/face-man
 hide:
   - feedback
   - footer
-  - navigation # ???
-  - toc # ???
+  - navigation # 顯示右
+  - toc # 顯示左
 ---
 # About the teams
 
@@ -36,14 +36,14 @@ hide:
 
 ::timeline:: class="epic-timeline"
 
-- content: ????
+- content: Web site launch
   icon: 'https://www.neoteroi.dev/mkdocs-plugins/img/icons/001-zeus.png'
   sub_title: 2024-11
-  title: ??
-- content: ?????
+  title: start
+- content: First blog
   icon: 'https://www.neoteroi.dev/mkdocs-plugins/img/icons/003-athena.png'
   sub_title: 2024-12
-  title: ??
+  title: starting
 
 ::/timeline::
 
@@ -61,7 +61,7 @@ This web built based on the helps below.
   url: https://squidfunk.github.io/mkdocs-material/
 
 - title: Wcowin's Web
-  content: ????,????
+  content: 循此苦旅，以達星辰
   image: https://s2.loli.net/2024/02/01/gaE47y5fKM6kosV.png
   url: https://wcowin.work/ 
 
