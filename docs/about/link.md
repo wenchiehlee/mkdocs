@@ -74,4 +74,3 @@ title: 友鏈
   image: https://github.com/google/material-design-icons/blob/master/png/device/4g_mobiledata/materialiconssharp/48dp/2x/sharp_4g_mobiledata_black_48dp.png?raw=true
 
 ::/cards::
-

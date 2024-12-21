@@ -54,12 +54,13 @@ theme:
     # - content.code.select
     - content.tabs.link    
     - content.tooltips
-    # - navigation.instant
+    - navigation.indexes
+    - navigation.instant
     #- header.autohide  #自動隱藏
     - navigation.tracking #位址列中的 URL 將自動更新為在目錄中突出顯示的活動錨點
     - navigation.tabs #頂級部分將呈現在上面視口標題下方的選單層中，但在移動裝置上保持原樣
-    # - navigation.prune
-    # - navigation.tabs.sticky  #啟用粘性選項卡後，導航選項卡將鎖定在標題下方，並在向下滾動時始終保持可見
+    - navigation.prune
+    - navigation.tabs.sticky  #啟用粘性選項卡後，導航選項卡將鎖定在標題下方，並在向下滾動時始終保持可見
     - navigation.sections #啟用部分後，頂級部分在邊欄中呈現為1220px以上視口的組，但在移動裝置上保持原樣
     - navigation.top # 返回頂部的按鈕 在上滑時出現
     - navigation.footer #頁尾將呈現在邊欄中，但在移動裝置上保持原樣
@@ -81,8 +82,9 @@ plugins:
       authors_file: "{blog}/.authors.yml"       
       draft: true
       draft_if_future_date: true #自動將具有未來日期的帖子標記為草稿
+      draft_on_serve: true
       post_readtime: true
-      post_readtime_words_per_minute: 265 #計算帖子的閱讀時間時讀者每分鐘預計閱讀的字數
+      post_readtime_words_per_minute: 200 #計算帖子的閱讀時間時讀者每分鐘預計閱讀的字數
       post_url_format: "{date}/{slug}"
       post_url_date_format: yyyy/MM
       post_date_format: medium
@@ -134,6 +136,19 @@ plugins:
 # Customization
 
 extra:
+  # alternate:
+  #   - name: 簡體中文
+  #     link: /
+  #     # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #     lang: zh-TW   
+  #   # - name: English
+  #   #   link: /Mkdocs-Wcowin/en/
+  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #   #   lang: en
+  #   # - name: China(TW)
+  #   #   link: /Mkdocs-Wcowin/ZH-TW/
+  #   #   # https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
+  #   #   lang: zh-TW
   annotate:
     json: [.s2] 
   generator: true #是否刪除頁尾顯示“使用 MkDocs 材料製造”
