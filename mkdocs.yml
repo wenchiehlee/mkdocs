@@ -60,7 +60,7 @@ theme:
     - navigation.tracking #位址列中的 URL 將自動更新為在目錄中突出顯示的活動錨點
     - navigation.tabs #頂級部分將呈現在上面視口標題下方的選單層中，但在移動裝置上保持原樣
     - navigation.prune
-    - navigation.tabs.sticky  #啟用粘性選項卡後，導航選項卡將鎖定在標題下方，並在向下滾動時始終保持可見
+    #- navigation.tabs.sticky  #啟用粘性選項卡後，導航選項卡將鎖定在標題下方，並在向下滾動時始終保持可見
     - navigation.sections #啟用部分後，頂級部分在邊欄中呈現為1220px以上視口的組，但在移動裝置上保持原樣
     - navigation.top # 返回頂部的按鈕 在上滑時出現
     - navigation.footer #頁尾將呈現在邊欄中，但在移動裝置上保持原樣

@@ -1,4 +1,4 @@
 ---
 icon: material/post
 ---
-# Blog
+# Blogs
