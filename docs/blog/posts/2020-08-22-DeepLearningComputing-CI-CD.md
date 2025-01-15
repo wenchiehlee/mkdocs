@@ -10,7 +10,10 @@ authors: [wenchiehlee]
 # Deep Learning Computing CI/CD Framework
 ## Overview
 
-[![](https://www.plantuml.com/plantuml/svg/RT0nJpCn3CRnFP_2hzuj4uY1jUrrGK9gfKCimE0cvYwwn0wEZtBVdY81ke7rztyaIzuqGxMIE1Qixf-DL0XC5jTFYIig5cZqDXC7sghA-M5COM9g3MvS-vqSKIs5L97jY34c7k1sbNVoySFNLol7OAAzBPa0pzIaq2hUqq0STwAHzE-h9mpJe39px2IBWYbokoHYSyu__HT57kW5jdVEU-YarDb8uJ6r9Fn5UpHqVhNSq_kXDkVNvltnq7dVG1ZwKTJWcK-pmUkSCtHBo7I1FTKiIo6svZR4yVkXdm00)](https://www.plantuml.com/plantuml/uml/RT0nJpCn3CRnFP_2hzuj4uY1jUrrGK9gfKCimE0cvYwwn0wEZtBVdY81ke7rztyaIzuqGxMIE1Qixf-DL0XC5jTFYIig5cZqDXC7sghA-M5COM9g3MvS-vqSKIs5L97jY34c7k1sbNVoySFNLol7OAAzBPa0pzIaq2hUqq0STwAHzE-h9mpJe39px2IBWYbokoHYSyu__HT57kW5jdVEU-YarDb8uJ6r9Fn5UpHqVhNSq_kXDkVNvltnq7dVG1ZwKTJWcK-pmUkSCtHBo7I1FTKiIo6svZR4yVkXdm00)
+<figure markdown="span">
+![QuickPOC](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/wenchiehlee/mkdocs/refs/heads/main/docs/blog/posts/QuickPOC.plantuml)
+  <figcaption>Figure 1 DevOps with AI</figcaption>
+</figure>
 
 
 ## POCs on Small changes from Open Source
