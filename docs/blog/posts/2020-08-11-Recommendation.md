@@ -12,7 +12,7 @@ authors: [wenchiehlee]
 ## Overview
 
 <figure markdown="span">
-[![](https://www.plantuml.com/plantuml/svg/RP1FIpD13CRlyodoyjvsAIWUlFPF4GgL5bgyY8Su4wR3xYHh9kkwtzujg2neJk7t2q_WMHP3jPmuPEoS-sSNoWGcepirYJjKp53ehIVsj5ALuNn9lc4g1UvS-JavebhogKEs8uQGECBzJA_bunlVtimuUXCzsTWIu415CitadY9nM8i6qh-_lg9leahFOIEjA9WYbqaHcvkcVlu_KjlA49M8Nw2gLhkgSei5REdzq9NhjjeTpgwkOIEvwuqKdb99mbUqHuuzHe972TIw-dVS5WtXGPGy5fkIbyJXgyfF)](https://www.plantuml.com/plantuml/uml/RP1FIpD13CRlyodoyjvsAIWUlFPF4GgL5bgyY8Su4wR3xYHh9kkwtzujg2neJk7t2q_WMHP3jPmuPEoS-sSNoWGcepirYJjKp53ehIVsj5ALuNn9lc4g1UvS-JavebhogKEs8uQGECBzJA_bunlVtimuUXCzsTWIu415CitadY9nM8i6qh-_lg9leahFOIEjA9WYbqaHcvkcVlu_KjlA49M8Nw2gLhkgSei5REdzq9NhjjeTpgwkOIEvwuqKdb99mbUqHuuzHe972TIw-dVS5WtXGPGy5fkIbyJXgyfF)
+![DataForecastinAllVision](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/wenchiehlee/mkdocs/refs/heads/main/docs/blog/posts/DataForecastinAllVision.plantuml)
   <figcaption>Figure 1 DataForecast in AI</figcaption>
 </figure>
 

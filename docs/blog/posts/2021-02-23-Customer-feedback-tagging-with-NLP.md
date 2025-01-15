@@ -12,8 +12,8 @@ authors: [wenchiehlee]
 ## Overview
 
 <figure markdown="span">
-  [![](https://www.plantuml.com/plantuml/svg/RP3FIWD138VlynGHRriAYWUl_LE4GgM55Y_Y8Sw4wT2TPCraNVVj7K5b4NCAlozV0baKGxMSE6JidBkoCsK2az4TBuaxLCnGwAqdzhHKbU5qJlx2L0hSkV8xSa2rv5E7R0SC8N64-mbUoSTFV7ipoT6RwD76bW07Af9f0dSKYSDAD93-V_KL_IMgz1pMqeg2ANAfYDXShTdpzKXjAqDK8dw1fbbkcyRDvx2XztrNlhhbTdzoinci9NUzaS9JAacuHd_aQk-GOu-Hu542jNLJzJPe20-YvB6OMn27xrz-0W00)](https://www.plantuml.com/plantuml/uml/RP3FIWD138VlynGHRriAYWUl_LE4GgM55Y_Y8Sw4wT2TPCraNVVj7K5b4NCAlozV0baKGxMSE6JidBkoCsK2az4TBuaxLCnGwAqdzhHKbU5qJlx2L0hSkV8xSa2rv5E7R0SC8N64-mbUoSTFV7ipoT6RwD76bW07Af9f0dSKYSDAD93-V_KL_IMgz1pMqeg2ANAfYDXShTdpzKXjAqDK8dw1fbbkcyRDvx2XztrNlhhbTdzoinci9NUzaS9JAacuHd_aQk-GOu-Hu542jNLJzJPe20-YvB6OMn27xrz-0W00)
-  <figcaption>Figure 1 Lanaguage Model in AI</figcaption>
+![LanaguageModelinAllVision](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/wenchiehlee/mkdocs/refs/heads/main/docs/blog/posts/LanguageModelinAllVision.plantuml)
+  <figcaption>Figure 1 Language Model in AI</figcaption>
 </figure>
 
 ## Project
