@@ -1,0 +1,22 @@
+@startmindmap
+
+!theme toy
+Skinparam sequenceArrowThickness 3
+skinparam ParticipantPadding 7
+skinparam BoxPadding 10
+skinparam actorStyle awesome
+skinparam LegendBorderThickness 3
+skinparam backgroundColor transparent
+
+
+
++[#yellowgreen] **AI**
+++[#yellowgreen] Computer vision
+++[#yellowgreen] Data Forecasting
+++[#yellowgreen] Language Model
++++[#yellowgreen]        GenAI (Large Language Model)
+-- DevOps
+-- AIOT
+--- Data
+--- IOT
+@endmindmap
