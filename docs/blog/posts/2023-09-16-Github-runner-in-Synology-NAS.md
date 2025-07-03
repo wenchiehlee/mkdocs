@@ -56,4 +56,4 @@ services:
 
 
 ## Refrences
-* [Installing a Self-Hosted GitHub Actions Runner on Synology NAS](https://oleksandrkirichenko.com/blog/github-runner-on-synolo
+* [Installing a Self-Hosted GitHub Actions Runner on Synology NAS](https://oleksandrkirichenko.com/blog/github-runner-on-synology)
