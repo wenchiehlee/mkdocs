@@ -1,0 +1,2123 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wen-Chieh Lee mkdocs site">
+      
+      
+        <meta name="author" content="Wen-Chieh Lee">
+      
+      
+        <link rel="canonical" href="https://wenchiehlee.github.io/mkdocs/blog/category/iot/">
+      
+      
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../../assets/images/w-blue.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>IOT - Wen-Chieh Lee</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+  
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+    
+    
+      
+    
+    
+  
+  
+  <style>.md-tag.md-tag--featured{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h1.6v-6H18v-2l-2-2Z"/></svg>');}.md-tag.md-tag--3D{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 7h4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5v-2h4v-2H6v-2h3V9H5V7m8 0h3a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3h-3V7m3 8a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-1v6h1Z"/></svg>');}.md-tag.md-tag--AI{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 3c3.88 0 7 3.14 7 7 0 2.8-1.63 5.19-4 6.31V21H9v-3H8c-1.11 0-2-.89-2-2v-3H4.5c-.42 0-.66-.5-.42-.81L6 9.66A7.003 7.003 0 0 1 13 3m0-2C8.41 1 4.61 4.42 4.06 8.9L2.5 11h-.03l-.02.03c-.55.76-.62 1.76-.19 2.59.36.69 1 1.17 1.74 1.32V16c0 1.85 1.28 3.42 3 3.87V23h11v-5.5c2.5-1.67 4-4.44 4-7.5 0-4.97-4.04-9-9-9m4.33 8.3-1.96.51 1.44 1.46c.35.34.35.92 0 1.27s-.93.35-1.27 0l-1.45-1.44-.52 1.96c-.12.49-.61.76-1.07.64a.91.91 0 0 1-.66-1.11l.53-1.96-1.96.53a.91.91 0 0 1-1.11-.66c-.12-.45.16-.95.64-1.07l1.96-.52-1.44-1.45a.9.9 0 0 1 1.27-1.27l1.46 1.44.51-1.96c.12-.49.62-.77 1.09-.64.49.13.77.62.64 1.1L14.9 8.1l1.97-.53c.48-.13.97.15 1.1.64.13.47-.15.97-.64 1.09Z"/></svg>');}.md-tag.md-tag--Data{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4Z"/></svg>');}.md-tag.md-tag--DevOps{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.73 11.93c0 1.72-.02 1.83-.23 2.07-.19.17-.38.23-.76.23l-.51.01-.03-2.27-.02-2.27h.52c.35 0 .6.07.77.21.24.21.26.25.26 2.02M22 7.5v9c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2v-9c0-1.11.89-2 2-2h16c1.11 0 2 .89 2 2M8.93 11.73c-.03-1.84-.05-1.99-.29-2.39-.4-.68-.85-.84-2.36-.84H5v7h1.21c1.33 0 1.89-.17 2.29-.71.41-.53.5-.98.43-3.06m4.19-3.23h-1.48c-1.49 0-1.5 0-1.71.28S9.7 9.21 9.7 12v2.96l.27.27c.25.27.31.27 1.71.27h1.44v-1.19l-1.09-.04-1.1-.03V12.6l.68-.03.66-.04v-1.19h-1.39V9.7h2.24V8.5m5.88.06c0-.06-.3-.06-.66-.06l-.68.06-.59 2.35c-.38 1.48-.62 2.27-.67 2.13-.08-.27-1.14-4.44-1.14-4.49 0-.05-.31-.05-.68-.05h-.69l.41 1.55c.2.87.59 2.28.81 3.15.34 1.35.46 1.65.75 1.94.2.22.45.36.61.36.33 0 .76-.34.9-.73C17.5 14.5 19 8.69 19 8.56Z"/></svg>');}.md-tag.md-tag--IOT{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18V4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V6m10 6H9v1.78c-.61.55-1 1.33-1 2.22 0 .89.39 1.67 1 2.22V20h4v-1.78c.61-.55 1-1.34 1-2.22s-.39-1.67-1-2.22V12m-2 5.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5M22 8h-6c-.5 0-1 .5-1 1v10c0 .5.5 1 1 1h6c.5 0 1-.5 1-1V9c0-.5-.5-1-1-1m-1 10h-4v-8h4v8Z"/></svg>');}</style>
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/timeline.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/cards.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/link.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/customize.css">
+    
+      <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-913Z6DSVD2"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-913Z6DSVD2",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-913Z6DSVD2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#iot" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Wen-Chieh Lee" class="md-header__button md-logo" aria-label="Wen-Chieh Lee" data-md-component="logo">
+      
+  <img src="../../../assets/images/w-blue.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wen-Chieh Lee
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IOT
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/wenchiehlee/mkdocs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    wenchiehlee/mkdocs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"/></svg>
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link">
+        
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3H3m15 15H6v-1h12v1m0-2H6v-1h12v1m0-4H6V6h12v6Z"/></svg>
+    
+  
+  Blogs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../tag/" class="md-tabs__link">
+        
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/link/" class="md-tabs__link">
+        
+  
+    
+  
+  Links
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../about/" class="md-tabs__link">
+        
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 11.75A1.25 1.25 0 0 0 7.75 13 1.25 1.25 0 0 0 9 14.25 1.25 1.25 0 0 0 10.25 13 1.25 1.25 0 0 0 9 11.75m6 0A1.25 1.25 0 0 0 13.75 13 1.25 1.25 0 0 0 15 14.25 1.25 1.25 0 0 0 16.25 13 1.25 1.25 0 0 0 15 11.75M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8 0-.29 0-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37a9.974 9.974 0 0 0 10.41 3.97c.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8Z"/></svg>
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Wen-Chieh Lee" class="md-nav__button md-logo" aria-label="Wen-Chieh Lee" data-md-component="logo">
+      
+  <img src="../../../assets/images/w-blue.png" alt="logo">
+
+    </a>
+    Wen-Chieh Lee
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/wenchiehlee/mkdocs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    wenchiehlee/mkdocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.07 4.93C17.22 3 14.66 1.96 12 2c-2.66-.04-5.21 1-7.06 2.93C3 6.78 1.96 9.34 2 12c-.04 2.66 1 5.21 2.93 7.06C6.78 21 9.34 22.04 12 22c2.66.04 5.21-1 7.06-2.93C21 17.22 22.04 14.66 22 12c.04-2.66-1-5.22-2.93-7.07M17 12v6h-3.5v-5h-3v5H7v-6H5l7-7 7.5 7H17Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3H3m15 15H6v-1h12v1m0-2H6v-1h12v1m0-4H6V6h12v6Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Blogs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tag/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h1.6v-6H18v-2l-2-2Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/link/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8v2m9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1 0 1.71-1.39 3.1-3.1 3.1h-4V17h4a5 5 0 0 0 5-5 5 5 0 0 0-5-5Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 11.75A1.25 1.25 0 0 0 7.75 13 1.25 1.25 0 0 0 9 14.25 1.25 1.25 0 0 0 10.25 13 1.25 1.25 0 0 0 9 11.75m6 0A1.25 1.25 0 0 0 13.75 13 1.25 1.25 0 0 0 15 14.25 1.25 1.25 0 0 0 16.25 13 1.25 1.25 0 0 0 15 11.75M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8 0-.29 0-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37a9.974 9.974 0 0 0 10.41 3.97c.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8Z"/></svg>
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raspberry-pi-with-github-actions-runner" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raspberry PI with github actions runner
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiot-data-collection-part-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      AIOT data collection- Part 2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiot-data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      AIOT data collection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pytorch-poc-6-wifi-indoor-positioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pytorch POC 6: WIFI Indoor Positioning
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="iot">IOT<a class="headerlink" href="#iot" title="Permanent link">&para;</a></h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/andylee-me.png" alt="Andy Lee">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-07-15 00:00:00">Jul 15, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">IOT</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+        <span class="md-draft">
+          Draft
+        </span>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="raspberry-pi-with-github-actions-runner"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/">Raspberry PI with github actions runner</a></h2>
+<h3 id="overview"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#overview">Overview</a></h3>
+<figure>
+<img alt="QuickPOC" src="http://www.plantuml.com/plantuml/proxy?cache=no&amp;fmt=svg&amp;src=https://raw.githubusercontent.com/wenchiehlee/mkdocs/refs/heads/main/docs/blog/posts/QuickPOC.plantuml" />
+  <figcaption>Figure 1 DevOps with AI</figcaption>
+</figure>
+<h3 id="dashboard-to-overview-the-runners"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#dashboard-to-overview-the-runners">Dashboard to overview the runners</a></h3>
+<iframe width="540px" height="300px" src="https://docs.google.com/spreadsheets/d/1LtxS_ZH3dd5ycHIlkHENfWahl7QCVwYgoXJstf6HzQY/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false"></iframe>
+
+<h3 id="raspberry-pi-5-to-enable-readwrite-google-sheet"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#raspberry-pi-5-to-enable-readwrite-google-sheet">Raspberry PI 5 to enable read/write google sheet</a></h3>
+<h3 id="raspberry-pi-to-get-self-hosted-runner-status-from-github-api"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#raspberry-pi-to-get-self-hosted-runner-status-from-github-api">Raspberry PI to get self-hosted runner status from github API</a></h3>
+<h3 id="raspberry-pi-5-to-enable-camera"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#raspberry-pi-5-to-enable-camera">Raspberry PI 5 to enable camera</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>sudo apt install -y python3-picamera2
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a>sudo apt install -y python3-opencv
+</code></pre></div></td></tr></table></div>
+<h3 id="refrences"><a class="toclink" href="../../2024/07/raspberry-pi-with-github-actions-runner/#refrences">Refrences</a></h3>
+<ul>
+<li><a href="https://pabluc.medium.com/raspberrypi-github-actions-ci-cd-1dc098b4c7d3">RaspberryPi+Github Actions+CI/CD</a></li>
+<li><a href="https://insights.project-a.com/how-we-set-up-a-production-ci-workflow-with-github-actions/">How we set up a production CI workflow with GitHub actions</a></li>
+<li><a href="https://github.com/thibmaek/awesome-raspberry-pi">github awesome-raspberry-pi</a></li>
+<li><a href="https://medium.com/@yunnnzeng/%E4%BD%BF%E7%94%A8python%E8%AE%80%E5%AF%ABgoogle-sheet-%E8%BC%95%E9%AC%86%E7%AE%A1%E7%90%86%E8%B3%87%E6%96%99%E7%9A%84%E6%AD%A5%E9%A9%9F%E6%8C%87%E5%8D%97-5e029c2c4c3c">使用Python讀寫Google Sheet：輕鬆管理資料的步驟指南</a></li>
+<li><a href="https://github.com/Th3Fire/Temp-SpreadSheet">Th3Fire/Temp-SpreadSheet</a></li>
+<li><a href="https://stackoverflow.com/questions/58643462/pygsheets-using-dotenv-instead-of-json-file">pygsheets - Using dotenv instead of json file</a></li>
+<li><a href="https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions?tool=webui">Using secrets in GitHub Actions</a></li>
+<li><a href="https://www.waveshare.com/wiki/IMX219-170_Camera">IMX219-170 Camera</a></li>
+</ul>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/wenchiehlee.png" alt="Wen-Chieh Lee">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-04-27 00:00:00">Apr 27, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../data/" class="md-meta__link">Data</a>, 
+              <a href="./" class="md-meta__link">IOT</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              2 min read
+            
+          </li>
+        
+      </ul>
+      
+        <span class="md-draft">
+          Draft
+        </span>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="aiot-data-collection-part-2"><a class="toclink" href="../../2021/04/aiot-data-collection--part-2/">AIOT data collection- Part 2</a></h2>
+<p>This post focuses on concepts of big data before go deeper of technology.</p>
+<h3 id="bigger-picture-of-big-data"><a class="toclink" href="../../2021/04/aiot-data-collection--part-2/#bigger-picture-of-big-data">Bigger picture of Big Data</a></h3>
+<p>Better service cycling from a deeper insights of data</p>
+<p><a href="https://www.mobility.siemens.com/global/en/portfolio/intermodal/data-analytics.html"><img alt="" src="https://assets.new.siemens.com/siemens/assets/api/uuid:13033b39-8570-40f2-80e5-4fc3b28bcb67/width:1920/crop:0:0,06111:1:0,88194/quality:high/graph-showing-the-mobility-analytics-cycle-.gif" /></a></p>
+<p><a href="https://www.edgeimpulse.com/"><img alt="" src="https://www.edgeimpulse.com/static/ei-cycle-d-e59c64ebeda3ccc80fa9a298cd0835f2.gif" /></a></p>
+<p>Deeper insights of data</p>
+<p><a href="https://research.aimultiple.com/analytics/"><img alt="" src="https://research.aimultiple.com/wp-content/uploads/2019/12/Evolution-of-Analytics-1160x880.png" /></a></p>
+<p>Deeper insights of data: Coming from evolution of data analytics service</p>
+<p><a href="https://www.hgsdigital.com/services/data-and-analytics/predictive-analytics-and-cognitive-analytics"><img alt="" src="https://hgs.cx/wp-content/uploads/2021/01/predictive-analytics-and-cognitive-analytics-img1.png" /></a></p>
+<p>Deeper insights of data: Coming from more automation</p>
+<p><a href="https://datajourney.akvo.org/blog/the-four-types-of-data-analysis"><img alt="" src="https://datajourney.akvo.org/hs-fs/hubfs/Screen%20Shot%202020-07-28%20at%2012.08.42.png?width=1094&amp;name=Screen%20Shot%202020-07-28%20at%2012.08.42.png" /></a></p>
+<p> </p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/wenchiehlee.png" alt="Wen-Chieh Lee">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2021-04-10 00:00:00">Apr 10, 2021</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../data/" class="md-meta__link">Data</a>, 
+              <a href="./" class="md-meta__link">IOT</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              3 min read
+            
+          </li>
+        
+      </ul>
+      
+        <span class="md-draft">
+          Draft
+        </span>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="aiot-data-collection"><a class="toclink" href="../../2021/04/aiot-data-collection/">AIOT data collection</a></h2>
+<h3 id="aiot-data-collection_1"><a class="toclink" href="../../2021/04/aiot-data-collection/#aiot-data-collection_1">AIOT data collection</a></h3>
+<p>AIOT is the combination of AI and IOT. Three major steps for AIOT: <strong>data</strong>, <strong>intelligence</strong>, <strong>actions</strong> mean <strong>data collection</strong>, <strong>smart data intelligence</strong>, then <strong>actions</strong> accordingly. For <strong>data collection</strong>, <strong>IOT devices events</strong> and <strong>user behaviorial events</strong> might be collected via several approaches. Here we focus on the approaches of data collections and aggreagration. </p>
+<h4 id="via-influxdb"><a class="toclink" href="../../2021/04/aiot-data-collection/#via-influxdb">via InfluxDB</a></h4>
+<p><strong>Data collection</strong>, or IOT devices and user behaviorial events collection, can be formulated as <strong>time series</strong> or <strong>events</strong> and and stored in <strong>times series database</strong> (<a href="https://www.influxdata.com/time-series-database/">TSDB</a>)</p>
+<p>a time series or event can be in the form of</p>
+<p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a>measurement tag fields timestamp
+</code></pre></div></td></tr></table></div>
+andd an example as
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a>temperature,device=device1,buidling=b1 internal=80,external=18 1443782126
+</code></pre></div></td></tr></table></div></p>
+<p><a href=""><img alt="" src="../../../assets/images/13.04.2021_10.35.03_REC.png" /></a></p>
+<p><a href="https://www.influxdata.com/">influxDB</a> is the top solution for (<a href="https://www.influxdata.com/time-series-database/">TSDB</a>) as collectors, aggregators and visualizer and its block digram as below.</p>
+<p><a href="https://www.influxdata.com/time-series-platform/telegraf/"><img alt="" src="https://www.influxdata.com/wp-content/uploads/APM-Diagram-1.png" /></a></p>
+<p>A showcase of IOT data collection architecture via influxDB.</p>
+<p><a href="https://davidgs.com/posts/category/iot/iot-hardware/building-an-influxdb-iot-edge-data-collection-device/"><img alt="" src="https://davidgs.com/posts/category/iot/iot-hardware/images/architecture.gif" /></a></p>
+<p><a href="https://www.influxdata.com/blog/tldr-influxdb-tech-tips-time-series-forecasting-with-telegraf/"><img alt="" src="https://sysadmin.info.pl/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/09/diagram-2.png.webp" /></a></p>
+<p>A detailed pipeline for telegraf plugins: Inputs, outputs, processors plugins to process the data.</p>
+<p><a href="https://sysadmin.info.pl/en/how-to-setup-and-secure-telegraf-influxdb-and-grafana-on-linux/"><img alt="" src="https://www.influxdata.com/wp-content/uploads/Telegraf-1.jpg" /></a></p>
+<p>An example show how <a href="https://docs.influxdata.com/influxdb/v2.0/query-data/">FLUX</a> to handle the data source <a href="https://docs.influxdata.com/flux/v0.7/introduction/getting-started#buckets">buckets</a>, <a href="https://docs.influxdata.com/flux/v0.7/introduction/getting-started#pipe-forward-operator">pipe</a>, and  <a href="https://docs.influxdata.com/flux/v0.7/introduction/getting-started#pipe-forward-operator">forward operator</a>, and <a href="https://docs.influxdata.com/flux/v0.7/introduction/getting-started#tables">tables</a>.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span>
+<span class="normal"><a href="#__codelineno-8-3">3</a></span>
+<span class="normal"><a href="#__codelineno-8-4">4</a></span>
+<span class="normal"><a href="#__codelineno-8-5">5</a></span>
+<span class="normal"><a href="#__codelineno-8-6">6</a></span>
+<span class="normal"><a href="#__codelineno-8-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="k">from</span><span class="p">(</span><span class="n">bucket</span><span class="p">:</span><span class="ss">&quot;mongo&quot;</span><span class="p">)</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="w">  </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">range</span><span class="p">(</span><span class="k">start</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="n">h</span><span class="p">)</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="w">  </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">filter</span><span class="p">(</span><span class="n">fn</span><span class="p">:(</span><span class="n">r</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4"></a><span class="w">    </span><span class="n">r</span><span class="p">.</span><span class="n">_measurement</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="ss">&quot;cpu&quot;</span><span class="w"> </span><span class="k">and</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5"></a><span class="w">    </span><span class="n">r</span><span class="p">.</span><span class="n">cpu</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="ss">&quot;cpu-total&quot;</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6"></a><span class="w">  </span><span class="p">)</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7"></a><span class="w">  </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">aggregateWindow</span><span class="p">(</span><span class="k">every</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="n">m</span><span class="p">,</span><span class="w"> </span><span class="n">fn</span><span class="p">:</span><span class="w"> </span><span class="n">mean</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="references"><a class="toclink" href="../../2021/04/aiot-data-collection/#references">References</a></h3>
+<ul>
+<li><a href="https://devconhttps://sysadmin.info.pl/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/09/diagram-2.png.webpnected.com/how-to-install-influxdb-telegraf-and-grafana-on-docker/">How To Install InfluxDB Telegraf and Grafana on Docker</a></li>
+<li><a href="https://blog.lbdg.me/nextcloud-influxdb-telegraf-grafana/">Nextcloud to influxDB (Grafana for display) with telegraf</a></li>
+<li><a href="https://db-engines.com/en/system/Cassandra%3BInfluxDB%3BMongoDB">Cassandra vs. InfluxDB vs. MongoDB</a></li>
+<li><a href="https://dzone.com/articles/flux-windowing-and-aggregation">Flux Windowing and Aggregation</a></li>
+<li><a href="https://gjson.dev/">GJSON PLAYGROUND</a></li>
+<li><a href="https://github.com/influxdata/telegraf/tree/master/plugins/inputs/http">influxdata/telegraf- HTTP Input Plugin</a></li>
+<li><a href="http://nilhcem.com/iot/home-monitoring-with-mqtt-influxdb-grafana">IoT - Home sensor data monitoring with MQTT, InfluxDB and Grafana</a></li>
+</ul>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/wenchiehlee.png" alt="Wen-Chieh Lee">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2020-09-15 00:00:00">Sep 15, 2020</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../data/" class="md-meta__link">Data</a>, 
+              <a href="./" class="md-meta__link">IOT</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              13 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="pytorch-poc-6-wifi-indoor-positioning"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/">Pytorch POC 6: WIFI Indoor Positioning</a></h2>
+<h3 id="project-map-of-dlc"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#project-map-of-dlc">Project Map of DLC</a></h3>
+<p><a href="https://rebrand.ly/dlc_uml_url"><img alt="" src="https://rebrand.ly/dlc_png_url" /></a></p>
+<h3 id="overview"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#overview">Overview</a></h3>
+<p>This is still a very early stage of POC. With a pre-defined datasets, with many WIFI APP signal strengths data try to prdict the real location of the indoor room. </p>
+<p>This might be the first POC try to define our input and output data formats.</p>
+<p>Also, this POC also be a high level connector of several different components together since it will leaverage multi factor information to conclude a precise indoor locationing. </p>
+<p><a href="https://www.dvginteractive.com/arcgis-indoors-enable-indoor-positioning-and-a-common-operating-picture/"><img alt="" src="https://www.dvginteractive.com/wp-content/uploads/2019/08/indoors_IPS-768x436.png" /></a></p>
+<p><a href="https://www.dvginteractive.com/arcgis-indoors-enable-indoor-positioning-and-a-common-operating-picture/"><img alt="" src="https://www.dvginteractive.com/wp-content/uploads/2019/08/indoors_assets.png" /></a></p>
+<p>When it comes to localization within buildings, a distinction can be made between <strong>client-based</strong> (<strong>Active tracking</strong>) and <strong>server-based positioning</strong> ( <strong>Passive tracking</strong> + <strong>Active tracking</strong> as optional). <strong>Client-based localization</strong> enables determining the position directly on the end user's device (e. g. smartphone). In the case of <strong>server-based localization</strong>, positioning takes place on a server.</p>
+<p><a href="https://www.infsoft.com/solutions/basics/quick-start-indoor-positioning"><img alt="" src="https://www.infsoft.com/portals/0/Images/solutions/basics/quick-start/Infographic-indoor-positioning-client-and-server-based-847.jpg" /></a></p>
+<h3 id="technologies-for-client-based-indoor-positioning"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#technologies-for-client-based-indoor-positioning">Technologies for Client-Based Indoor Positioning</a></h3>
+<p>Client-Based Indoor Positioning Compared: Wi-Fi vs. BLE vs. UWB vs. RFID vs. Ultrasound</p>
+<p><a href="https://www.infsoft.com/blog/technologies-for-server-based-indoor-positioning-compared"><img alt="" src="https://www.infsoft.com/Portals/0/Images/blog/2021/technologies-server-based-positioning.jpg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Accuracy</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WIFI</td>
+<td>&lt;15m</td>
+<td>&lt;150m</td>
+</tr>
+<tr>
+<td>BLE 4</td>
+<td>&lt;8m</td>
+<td>&lt;75m</td>
+</tr>
+<tr>
+<td>BLE 5.1</td>
+<td>&lt;1m</td>
+<td>&lt;75m</td>
+</tr>
+<tr>
+<td>UWB</td>
+<td>&lt;30cm</td>
+<td>&lt;150m</td>
+</tr>
+<tr>
+<td>RFID</td>
+<td>Present detection only</td>
+<td>&lt;1m</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technologies-for-server-based-indoor-positioning"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#technologies-for-server-based-indoor-positioning">Technologies for Server-Based Indoor Positioning</a></h3>
+<p>Server-Based Indoor Positioning Compared: Wi-Fi vs. BLE vs. UWB vs. RFID vs. Ultrasound</p>
+<p><a href="https://www.infsoft.com/blog/technologies-for-server-based-indoor-positioning-compared"><img alt="" src="https://www.infsoft.com/Portals/0/Images/blog/2021/technologies-server-based-positioning.jpg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Accuracy</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WIFI</td>
+<td>&lt;15m</td>
+<td>&lt;150m</td>
+</tr>
+<tr>
+<td>BLE 4</td>
+<td>&lt;8m</td>
+<td>&lt;75m</td>
+</tr>
+<tr>
+<td>BLE 5.1</td>
+<td>&lt;1m</td>
+<td>&lt;75m</td>
+</tr>
+<tr>
+<td>UWB</td>
+<td>&lt;30cm</td>
+<td>&lt;150m</td>
+</tr>
+<tr>
+<td>RFID</td>
+<td>Present detection only</td>
+<td>&lt;1m</td>
+</tr>
+<tr>
+<td><strong>Ultrasound</strong></td>
+<td><strong>&lt;4m</strong></td>
+<td><strong>&lt;8m or Wall</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Indoor Positioning Technology</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Client-Based</td>
+<td>No server setup. Use existing framework. but, low precision</td>
+</tr>
+<tr>
+<td>Server-Based (Passive tracking only)</td>
+<td>Server only. 3-5 sec delay. Not realtime application</td>
+</tr>
+<tr>
+<td>Server-Based (Passive+Active tracking)</td>
+<td>Need sever+client to get hybrid info for realtime &amp; stable location info</td>
+</tr>
+</tbody>
+</table>
+<h3 id="deeper-insights-of-client-based-indoor-positioning"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#deeper-insights-of-client-based-indoor-positioning">Deeper insights of Client-Based Indoor Positioning</a></h3>
+<p><a href="https://hcis-journal.springeropen.com/articles/10.1186/s13673-020-00222-0/figures/7"><img alt="" src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13673-020-00222-0/MediaObjects/13673_2020_222_Fig7_HTML.png?as=webp" /></a></p>
+<h3 id="indoor-positioning-use-cases"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#indoor-positioning-use-cases">Indoor Positioning Use Cases</a></h3>
+<p>Many different <a href="https://www.infsoft.com/use-cases/articlepage">use cases</a>.</p>
+<h3 id="poc-using-find3"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#poc-using-find3">POC using find3</a></h3>
+<table>
+<thead>
+<tr>
+<th>Git Repo</th>
+<th>Status</th>
+<th>Progress</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://git.barco.com/users/wjlee/repos/find3/browse"><img alt="find3" src="https://img.shields.io/badge/project-find3-green" /></a></td>
+<td><a href="https://tailab.barco.com:9443/deeplearningcomputing/finetunemodels/find3/pipelines"><img alt="status" src="https://tailab.barco.com:9443/deeplearningcomputing/finetunemodels/find3/badges/master/pipeline.svg" /></a></td>
+<td><a href="http://dlc1.barco.com:8005/view/dashboard/barco"><img alt="progress" src="https://img.shields.io/badge/POC-red?logo=docker" /></a></td>
+<td>Family=barco <br><a href="http://dlc1.barco.com:8005/api/v1/by_location/barco?history=1&amp;num_scanners=1&amp;randomized=0">API:Devices by Loc (w 1 mins)</a></td>
+</tr>
+</tbody>
+</table>
+<p>Get info of device='dlc2.barco.com' &amp; family='barco' from find3 server </p>
+<p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1"></a>curl<span class="w"> </span>-s<span class="w"> </span>-L<span class="w"> </span>-XGET<span class="w"> </span><span class="s2">&quot;http://dlc1.barco.com:8005/api/v1/location_basic/barco/dlc2.barco.com&quot;</span>
+</code></pre></div></td></tr></table></div>
+Get WIFI/BT SSID, BSSID, RSSID of the location and device</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a>curl<span class="w"> </span>-XGET<span class="w"> </span>http://dlc1.barco.com:8005/api/v1/location/barco/dlc2.barco.com
+</code></pre></div></td></tr></table></div>
+<p>Get all devices within 1 minsfrom family='barco' from find3 server and output it as a table</p>
+<p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1"></a>curl<span class="w"> </span>-s<span class="w"> </span>-L<span class="w"> </span>-XGET<span class="w"> </span><span class="s2">&quot;http://dlc1.barco.com:8005/api/v1/by_location/barco?history=1&amp;num_scanners=1&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span>-s<span class="w"> </span><span class="s1">&#39;.[] | .locations | .[] |.devices&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>jsoncsv<span class="w"> </span>-A<span class="w">  </span><span class="p">|</span><span class="w"> </span>mkexcel<span class="w"> </span><span class="p">|</span><span class="w"> </span>csvcut<span class="w">  </span>-d<span class="w"> </span>,<span class="w"> </span>-C<span class="w"> </span><span class="m">5</span><span class="w">  </span><span class="p">|</span>csvlook<span class="w"> </span>--snifflimit<span class="w"> </span><span class="m">0</span><span class="w">  </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>output.txt
+</code></pre></div></td></tr></table></div>
+Update GPS info of location 'Aris Cube' (device=dlc2.barco.com)</p>
+<p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a>curl<span class="w"> </span>-s<span class="w"> </span>-L<span class="w"> </span>-XPOST<span class="w"> </span><span class="s2">&quot;http://dlc1.barco.com:8005/api/v1/gps&quot;</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type:application/json&quot;</span><span class="w"> </span>--data-binary<span class="w"> </span><span class="s1">&#39;{&quot;f&quot;:&quot;Barco&quot;,&quot;l&quot;:&quot;Aris Cube&quot;,&quot;gps&quot;:{&quot;lat&quot;:25.01290,&quot;lon&quot;:121.46701,&quot;alt&quot;:0}}&#39;</span>
+</code></pre></div></td></tr></table></div>
+Delete family=barco data (Dangersous operation!!! Warning!!!)</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-14-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="w"> </span>curl<span class="w"> </span>-s<span class="w"> </span>-L<span class="w"> </span>-XDELETE<span class="w"> </span><span class="s2">&quot;http://dlc1.barco.com:8005/api/v1/database/barco&quot;</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="block-diagram-of-find3"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#block-diagram-of-find3">Block diagram of find3</a></h4>
+<p><a href="http://www.plantuml.com/plantuml/uml/bLB1Rjf04BtlLup83San1BMAE4I1fgcuLAuKJjI7mJkOLTQprkwQD2hyUzS6GMmiHRrOyflttkgzcKVdqVggqCAzAYxHOW6AFTaDPWH_1S0QizVScehbDwEDXNVIshpL0sCbsIDeB79EuY24yCfhWWLB4_34EEMLOSKv9AeahPY4k3mms7fVJkDOwcnykqQRcTlC5DFxqUXBl5Fq5ajqsxL1A-DcEW1qG2nB4pp6S9DR8kxtQzdTVurRqZkuiIIxGdUbd8n6evPm0ZUd0eIcFA2WQUF5VZZSA9OJUBQ6VGqdoAI7mptyPy9zxRNWZQx-FCrXwSZ2Cv6ijz3sx4tPg7zOt20Zx9J3IlUhMWdtWbWUumWX0beQ9lOmc2y7uGPMJRGeqofo6JAJJSMA2on_iwSW2y-buj1MpbXQesIiacr0-btkqkCM3Ytbpta_UzpBRcYDuEdSuonPfD7vICJgnORooARHGuSaMhDP0CBdcjRr3eINLcw97jVe20QdnHqZVDyHUz0cpyb-D4aXYYwNs0bqMbvj85Qddrhm01U3yKUtSSjk4kpw5bORdCDE8K7dr8wWGHJdlNrtDBFCVoAv-qmYBiK5PhkWwI-gxFlLOLtHjiPvne94f-3RXtDTKrYM4Zr1Gt3YaLXMXVu7"><img alt="" src="https://www.plantuml.com/plantuml/png/bLB1Rjf04BtlLup83San1BMAE4I1fgcuLAuKJjI7mJkOLTQprkwQD2hyUzS6GMmiHRrOyflttkgzcKVdqVggqCAzAYxHOW6AFTaDPWH_1S0QizVScehbDwEDXNVIshpL0sCbsIDeB79EuY24yCfhWWLB4_34EEMLOSKv9AeahPY4k3mms7fVJkDOwcnykqQRcTlC5DFxqUXBl5Fq5ajqsxL1A-DcEW1qG2nB4pp6S9DR8kxtQzdTVurRqZkuiIIxGdUbd8n6evPm0ZUd0eIcFA2WQUF5VZZSA9OJUBQ6VGqdoAI7mptyPy9zxRNWZQx-FCrXwSZ2Cv6ijz3sx4tPg7zOt20Zx9J3IlUhMWdtWbWUumWX0beQ9lOmc2y7uGPMJRGeqofo6JAJJSMA2on_iwSW2y-buj1MpbXQesIiacr0-btkqkCM3Ytbpta_UzpBRcYDuEdSuonPfD7vICJgnORooARHGuSaMhDP0CBdcjRr3eINLcw97jVe20QdnHqZVDyHUz0cpyb-D4aXYYwNs0bqMbvj85Qddrhm01U3yKUtSSjk4kpw5bORdCDE8K7dr8wWGHJdlNrtDBFCVoAv-qmYBiK5PhkWwI-gxFlLOLtHjiPvne94f-3RXtDTKrYM4Zr1Gt3YaLXMXVu7" /></a></p>
+<table>
+<thead>
+<tr>
+<th>Signal strength (dBm)</th>
+<th>Expected Quality</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-90</td>
+<td>Chances of connecting are very low at this level</td>
+</tr>
+<tr>
+<td>-80</td>
+<td>Unreliable signal strength</td>
+</tr>
+<tr>
+<td>-67</td>
+<td>Reliable signal strength– the edge of what Cisco considers to be adequate to support Voice over WLAN</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>Anything down to this level can be considered excellent signal strength.</td>
+</tr>
+<tr>
+<td>-30</td>
+<td>Maximum signal strength, you are probably standing right next to the access point.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="a-snapshot-of-find3-active-rssi-its-bssid-ssid-on-20200831-nearby-dlc2barcocom"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#a-snapshot-of-find3-active-rssi-its-bssid-ssid-on-20200831-nearby-dlc2barcocom">A snapshot of find3 active RSSI &amp; its BSSID, SSID on 2020/08/31 nearby dlc2.barco.com</a></h4>
+<table>
+<thead>
+<tr>
+<th>Rssi</th>
+<th>Freq</th>
+<th>Type</th>
+<th>Algo</th>
+<th>Rate</th>
+<th>BSSID</th>
+<th>SSID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-50</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>6</td>
+<td>12</td>
+<td>E8  D0  FC  BF  18  0D</td>
+<td>ClickShare-Mobile-CX20</td>
+</tr>
+<tr>
+<td>-52</td>
+<td>5.825 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>04  D4  C4  D3  42  84</td>
+<td>ASUS_Automation_5G</td>
+</tr>
+<tr>
+<td>-72</td>
+<td>5.825 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  58  43  93</td>
+<td>CX-50-DEMO-RICHEN</td>
+</tr>
+<tr>
+<td>-50</td>
+<td>2.457 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>B0  7F  B9  82  03  04</td>
+<td>NETGEAR25</td>
+</tr>
+<tr>
+<td>-66</td>
+<td>2.437 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5D  A9  C0</td>
+<td>Barco</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.24 GHz</td>
+<td>802.11n</td>
+<td>6</td>
+<td>8</td>
+<td>28  24  FF  69  5B  B7</td>
+<td>TestRoom_CSE800_mac (5GHz)</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>2.437 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5B  54  61</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-61</td>
+<td>5.24 GHz</td>
+<td>802.11ac</td>
+<td>1</td>
+<td>8</td>
+<td>3C  91  80  84  95  07</td>
+<td>ClickShare-HW-UniSee</td>
+</tr>
+<tr>
+<td>-71</td>
+<td>5.24 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  35  04  65</td>
+<td>ClickShare-1863551994</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>2.437 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>BE  42  4F  CB  C3  44</td>
+<td>TestRoom-EAP-WinServer</td>
+</tr>
+<tr>
+<td>-46</td>
+<td>5.785 GHz</td>
+<td></td>
+<td>6</td>
+<td>8</td>
+<td>7C  10  C9  61  97  84</td>
+<td>TAI-QA-ASUSROG-6E_5G</td>
+</tr>
+<tr>
+<td>-49</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>10  63  C8  97  03  9F</td>
+<td>TAI_MR08</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.785 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>BC  CF  4F  CB  C3  43</td>
+<td>TestRoom-EAP</td>
+</tr>
+<tr>
+<td>-63</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>6</td>
+<td>8</td>
+<td>3C  91  80  84  9C  5D</td>
+<td>ClickShare-1862300001</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.3 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  D5  6F</td>
+<td>Barco</td>
+</tr>
+<tr>
+<td>-57</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>D4  6E  0E  41  61  EA</td>
+<td>keroro24</td>
+</tr>
+<tr>
+<td>-60</td>
+<td>5.32 GHz</td>
+<td></td>
+<td>9</td>
+<td>6</td>
+<td>F0  1D  2D  5B  54  6E</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-68</td>
+<td>5.58 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  D9  8D</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  9C  5F</td>
+<td>TAI_MR09</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  74  46  FF</td>
+<td>ClickShare-Mobile-CX50</td>
+</tr>
+<tr>
+<td>-53</td>
+<td>2.412 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5A  D5  62</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-69</td>
+<td>5.805 GHz</td>
+<td>802.11ac</td>
+<td>6</td>
+<td>8</td>
+<td>D4  6E  0E  41  61  E9</td>
+<td>keroro5</td>
+</tr>
+<tr>
+<td>-62</td>
+<td>5.24 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>F8  A2  D6  6E  09  CF</td>
+<td>TestRoom_CSE200P_mac</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.785 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>BE  43  4F  CB  C3  45</td>
+<td>TestRoom-EAP-WinServer</td>
+</tr>
+<tr>
+<td>-73</td>
+<td>5.68 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5C  27  CF</td>
+<td></td>
+</tr>
+<tr>
+<td>-39</td>
+<td>2.447 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>2C  FD  A1  CD  32  38</td>
+<td>ASUS</td>
+</tr>
+<tr>
+<td>-69</td>
+<td>5.765 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>70  2E  D9  42  F4  76</td>
+<td>MAXHUB-6BF</td>
+</tr>
+<tr>
+<td>-56</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  35  21  3F</td>
+<td>SClickShare-1863551600</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.785 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>BE  43  4F  CB  C3  44</td>
+<td>TestRoom-PSK2</td>
+</tr>
+<tr>
+<td>-62</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>E8  D0  FC  BF  13  5F</td>
+<td>ClickShare-1862300251</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  74  2C  D3</td>
+<td>ClickShare-1863553421</td>
+</tr>
+<tr>
+<td>-60</td>
+<td>2.452 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>04  D4  C4  35  69  E8</td>
+<td>ASUS_SQA_JessicaHsu_2.4G</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  95  D3</td>
+<td>ClickShare-MR12</td>
+</tr>
+<tr>
+<td>-69</td>
+<td>2.412 GHz</td>
+<td></td>
+<td>1</td>
+<td>7</td>
+<td>F0  1D  2D  5A  D9  82</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-61</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>BC  30  7E  F1  1D  9B</td>
+<td>ClickShare Audi-1</td>
+</tr>
+<tr>
+<td>-61</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  97  59</td>
+<td>ClickShare-1862300078</td>
+</tr>
+<tr>
+<td>-60</td>
+<td>5.32 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5B  54  6F</td>
+<td></td>
+</tr>
+<tr>
+<td>-78</td>
+<td>2.437 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>8</td>
+<td>02  21  6A  F8  2F  AF</td>
+<td>DIRECT-ZWTAICLT24036msZe</td>
+</tr>
+<tr>
+<td>-62</td>
+<td>5.24 GHz</td>
+<td>802.11ac</td>
+<td>1</td>
+<td>8</td>
+<td>02  12  5F  17  67  2F</td>
+<td>WiCS-2100-72E</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>2.462 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>00  D0  41  DC  13  C8</td>
+<td>myvita</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  9F  25</td>
+<td>ClickShare-0716174986</td>
+</tr>
+<tr>
+<td>-71</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>10  63  C8  A7  9E  23</td>
+<td>TAI_MR04</td>
+</tr>
+<tr>
+<td>-86</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>1</td>
+<td>8</td>
+<td>10  63  C8  96  FF  87</td>
+<td>TAI_MR01</td>
+</tr>
+<tr>
+<td>-28</td>
+<td>2.427 GHz</td>
+<td>802.11n</td>
+<td>1</td>
+<td>12</td>
+<td>7A  DA  88  B2  74  EC</td>
+<td></td>
+</tr>
+<tr>
+<td>-66</td>
+<td>2.422 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>BC  30  7E  DD  3D  FE</td>
+<td>WiPG-1000-78C</td>
+</tr>
+<tr>
+<td>-56</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>F8  A2  D6  8D  BF  8F</td>
+<td>ClickShare-1863550102</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.3 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  D5  6D</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-73</td>
+<td>5.24 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>8</td>
+<td>D8  61  62  8B  1D  EF</td>
+<td>TAI-MR06-Pingtung</td>
+</tr>
+<tr>
+<td>-52</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>12  63  C8  14  92  3B</td>
+<td>DIRECT-BM</td>
+</tr>
+<tr>
+<td>-83</td>
+<td>5.68 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  CC  AE</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-81</td>
+<td>5.26 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5D  B2  AF</td>
+<td></td>
+</tr>
+<tr>
+<td>-68</td>
+<td>2.437 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>BC  EE  7B  7D  46  C0</td>
+<td></td>
+</tr>
+<tr>
+<td>-81</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>02  12  5F  17  68  8C</td>
+<td>WiCS-2100-88B</td>
+</tr>
+<tr>
+<td>-68</td>
+<td>5.58 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  D9  8E</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-55</td>
+<td>2.437 GHz</td>
+<td>802.11n</td>
+<td>1</td>
+<td>12</td>
+<td>BE  42  4F  CB  C3  43</td>
+<td>TestRoom-PSK2</td>
+</tr>
+<tr>
+<td>-77</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>02  12  5F  17  66  66</td>
+<td>WiCS-2100-665</td>
+</tr>
+<tr>
+<td>-52</td>
+<td>5.18 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>8</td>
+<td>28  24  FF  4D  1B  FD</td>
+<td>ClickShare-1872075087</td>
+</tr>
+<tr>
+<td>-82</td>
+<td>5.2 GHz</td>
+<td>802.11n</td>
+<td>1</td>
+<td>8</td>
+<td>BC  30  7E  D9  C3  F4</td>
+<td>ClickShare-8000000049</td>
+</tr>
+<tr>
+<td>-72</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  74  26  59</td>
+<td>CX-50_Service</td>
+</tr>
+<tr>
+<td>-71</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E8  D0  FC  BF  15  D1</td>
+<td>Agile 01</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  95  B3</td>
+<td>ClickShare-1862300131</td>
+</tr>
+<tr>
+<td>-48</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>2C  FD  A1  CD  32  3C</td>
+<td>ASUS_5G</td>
+</tr>
+<tr>
+<td>-47</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>6</td>
+<td>8</td>
+<td>E4  AA  EA  58  45  8B</td>
+<td>ClickShare-1863552495</td>
+</tr>
+<tr>
+<td>-84</td>
+<td>5.22 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>3C  91  80  84  98  13</td>
+<td>TAI_MR03</td>
+</tr>
+<tr>
+<td>-69</td>
+<td>5.18 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>8</td>
+<td>B8  B7  F1  01  B0  2D</td>
+<td>ClickShare-1873124000</td>
+</tr>
+<tr>
+<td>-45</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>1</td>
+<td>12</td>
+<td>C8  60  00  AC  FB  30</td>
+<td>ASUS-FA</td>
+</tr>
+<tr>
+<td>-64</td>
+<td>2.462 GHz</td>
+<td></td>
+<td>1</td>
+<td>7</td>
+<td>F0  1D  2D  5C  27  C0</td>
+<td></td>
+</tr>
+<tr>
+<td>-68</td>
+<td>5.58 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  D9  8F</td>
+<td>Barco</td>
+</tr>
+<tr>
+<td>-54</td>
+<td>2.412 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5A  D5  61</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-64</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>02  12  5F  17  67  F2</td>
+<td>WiCS-2100-LIN</td>
+</tr>
+<tr>
+<td>-53</td>
+<td>5.2 GHz</td>
+<td>802.11ac</td>
+<td>9</td>
+<td>8</td>
+<td>04  D4  C4  35  69  EC</td>
+<td>ASUS_SQA_JessicaHsu_5G</td>
+</tr>
+<tr>
+<td>-64</td>
+<td>2.462 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5C  27  C2</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>F8  A2  D6  8D  BF  5D</td>
+<td>ClickShare-1863550098</td>
+</tr>
+<tr>
+<td>-81</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>02  12  5F  30  00  AC</td>
+<td>WiCS-2100-0AB</td>
+</tr>
+<tr>
+<td>-53</td>
+<td>2.462 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>00  4E  35  1A  C8  60</td>
+<td>TAI-ClickShare-WPA2-DFS</td>
+</tr>
+<tr>
+<td>-73</td>
+<td>5.68 GHz</td>
+<td></td>
+<td>9</td>
+<td>6</td>
+<td>F0  1D  2D  5C  27  CD</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-59</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>F8  A2  D6  8D  CB  39</td>
+<td>ClickShare-1863550140</td>
+</tr>
+<tr>
+<td>-75</td>
+<td>5.22 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>8</td>
+<td>28  24  FF  5B  05  05</td>
+<td>CSE-200-demo</td>
+</tr>
+<tr>
+<td>-61</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>10  63  C8  BF  B1  81</td>
+<td>ClickShare-1862337967</td>
+</tr>
+<tr>
+<td>-80</td>
+<td>5.26 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5D  B2  AE</td>
+<td>Barco Guest</td>
+</tr>
+<tr>
+<td>-53</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>1</td>
+<td>8</td>
+<td>A0  40  A0  82  49  0E</td>
+<td>QA-test-5G</td>
+</tr>
+<tr>
+<td>-51</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>10  63  C8  96  F7  F3</td>
+<td>ClickShare-T20</td>
+</tr>
+<tr>
+<td>-60</td>
+<td>5.32 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5B  54  6D</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-43</td>
+<td>5.22 GHz</td>
+<td></td>
+<td>7</td>
+<td>8</td>
+<td>6C  CD  D6  F5  9D  69</td>
+<td>HW_WIFI6E_5G</td>
+</tr>
+<tr>
+<td>-52</td>
+<td>2.462 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>18  31  BF  C5  D1  38</td>
+<td>SQA_Balloon_24G</td>
+</tr>
+<tr>
+<td>-82</td>
+<td>5.68 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5A  CC  AF</td>
+<td>Barco</td>
+</tr>
+<tr>
+<td>-84</td>
+<td>5.745 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>02  12  5F  30  06  4F</td>
+<td>WiCS-2100-64E</td>
+</tr>
+<tr>
+<td>-45</td>
+<td>2.437 GHz</td>
+<td></td>
+<td>7</td>
+<td>12</td>
+<td>7C  10  C9  61  97  80</td>
+<td>TAI-QA-ASUSROG-6E_2.4G</td>
+</tr>
+<tr>
+<td>-58</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>E4  AA  EA  58  43  81</td>
+<td>ClickShare-1863552454</td>
+</tr>
+<tr>
+<td>-75</td>
+<td>5.5 GHz</td>
+<td></td>
+<td>7</td>
+<td>6</td>
+<td>F0  1D  2D  5D  A9  CD</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-75</td>
+<td>5.18 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>D8  F3  BC  54  4B  89</td>
+<td>ClickShare-1862375851</td>
+</tr>
+<tr>
+<td>-43</td>
+<td>2.472 GHz</td>
+<td></td>
+<td>7</td>
+<td>12</td>
+<td>08  36  C9  2F  78  F5</td>
+<td>TAI-QA-NetGear-2.4G</td>
+</tr>
+<tr>
+<td>-63</td>
+<td>2.412 GHz</td>
+<td>802.11n</td>
+<td>7</td>
+<td>12</td>
+<td>3C  91  80  84  9C  91</td>
+<td>ClickShare-1862300102</td>
+</tr>
+<tr>
+<td>-68</td>
+<td>2.412 GHz</td>
+<td></td>
+<td>6</td>
+<td>7</td>
+<td>F0  1D  2D  5A  D9  80</td>
+<td>Barco</td>
+</tr>
+<tr>
+<td>-66</td>
+<td>2.437 GHz</td>
+<td></td>
+<td>7</td>
+<td>7</td>
+<td>F0  1D  2D  5D  A9  C2</td>
+<td>BarcoIoT</td>
+</tr>
+<tr>
+<td>-63</td>
+<td>5.5 GHz</td>
+<td>802.11ac</td>
+<td>7</td>
+<td>8</td>
+<td>00  4E  35  1A  C8  70</td>
+<td>TAI-ClickShare-WPA2-DFS</td>
+</tr>
+</tbody>
+</table>
+<h4 id="live-demo-of-find3-passive-rssi-of-dlc2barcocom"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#live-demo-of-find3-passive-rssi-of-dlc2barcocom">Live demo of find3 passive RSSI of dlc2.barco.com</a></h4>
+<p><a href="https://dlc.barco.com:3000/d/1nU7bPnnz/indoor-position?orgId=1"><img alt="live demo" src="https://img.shields.io/badge/live_demo-green?logo=grafana" /></a></p>
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by MS -->
+<iframe src="https://dlc.barco.com:3000/d-solo/1nU7bPnnz/indoor-position?orgId=1&from=now-10m&to=now&panelId=2" width="1024px" height="768px" frameborder="0"></iframe>
+<!-- MS embed ends -->
+</div>
+
+<h3 id="ppt"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#ppt">PPT</a></h3>
+<p>Can't see the following page? Please login to <a href="https://login.microsoftonline.com/aeb84c91-6270-4446-ada5-d71ceba1d535/login">MS office</a> first.</p>
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by MS -->
+<iframe src="https://barcozone-my.sharepoint.com/personal/wj_lee_barco_com/_layouts/15/Doc.aspx?sourcedoc={50905eb0-8897-4ef0-92d7-d5f91be448b8}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1024px" height="768px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<!-- MS embed ends -->
+</div>
+
+<h3 id="references"><a class="toclink" href="../../2020/09/pytorch-poc-6-wifi-indoor-positioning/#references">References</a></h3>
+<ul>
+<li><a href="https://duhuazhen.github.io/2017/01/03/wifi_locate/">基于WiFi指纹的室内定位 (autoencoder)</a></li>
+<li><a href="https://www.zhihu.com/question/20355764">移動設備究竟是怎樣僅僅使用Wi-Fi 來定位的?</a></li>
+<li><a href="https://eloquentarduino.github.io/2019/12/wifi-indoor-positioning-on-arduino/">Wifi indoor positioning using Arduino and Machine Learning in 4 steps</a></li>
+<li><a href="https://www.researchgate.net/publication/328553362_Fingerprinting_Acoustic_Localization_Indoor_Based_on_Cluster_Analysis_and_Iterative_Interpolation">Fingerprinting Acoustic Localization Indoor Based on Cluster Analysis and Iterative Interpolation</a></li>
+<li><a href="https://www.researchgate.net/publication/323957009_Learning_the_Localization_Function_Machine_Learning_Approach_to_Fingerprinting_Localization#pf24">Learning the Localization Function: Machine Learning Approach to Fingerprinting Localization</a></li>
+<li><a href="http://sig-iss.work/percom2019/papers/p232-abbas.pdf">WiDeep: WiFi-based Accurate and Robust Indoor Localization System using Deep Learning</a></li>
+<li><a href="https://archive.ics.uci.edu/ml/datasets/ujiindoorloc">UJIndoorLoc dataset download</a> <a href="http://dlc.barco.com:9980/apps/files/?dir=/Datasets/WIFI/UJIndoorLoc&amp;fileid=217"><img alt="nextcloud" src="https://img.shields.io/badge/UJIndoorLoc_wifi_dataset-blue?logo=nextcloud" /></a></li>
+<li><a href="https://www.talentica.com/assets/white-papers/wifi-indoor-positioning-using-smartphones.pdf">Wi-Fi- based Indoor Positioning System Using Smartphones</a></li>
+<li><a href="https://weirenxue.github.io/2021/07/01/mqtt_mosquitto_docker/">[MQTT] Mosquitto Docker 架設與設定詳細過程</a></li>
+<li><a href="https://www.techadvisor.com/how-to/network-wifi/check-wi-fi-signal-strength-3803538/">如何在家中任何地方檢查 Wi-Fi 信號強度</a></li>
+<li><a href="https://res.mdpi.com/d_attachment/energies/energies-13-01446/article_deploy/energies-13-01446-v2.pdf">iABACUS: A Wi-Fi-Based Automatic Bus Passenger counting System</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Monitor_mode">WIFI monitor mode- wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Promiscuous_mode">WIFI Promiscuous mode- wifi</a></li>
+<li><a href="https://www.wireshark.org">wireshark</a></li>
+<li><a href="https://documentation.meraki.com/General_Administration/Tools_and_Troubleshooting/Analyzing_Wireless_Packet_Captures">Wireshark- Analyzing Wireless Packet Captures</a></li>
+<li><a href="https://scapy.net/">Scapy- Packet crafting for Python2 and Python3</a></li>
+</ul>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <!-- Footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Wen-Chieh Lee
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+   
+    <font color="#B9B9B9">
+      <div class="footer-visit-count" style="display: flex; justify-content: center; align-items: center;">
+    Visited：<script async src="//finicounter.eu.org/finicounter.js"></script>
+    <span id="finicount_views"></span>
+  </div>
+      </font>
+
+      <style>
+        .footer-visit-count {
+            height: fit-content;
+            min-height: 55px; /* 根據實際情況調整此高度 */
+        }
+        </style>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/wenchiehlee" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/wen-chieh-lee-8a242b50/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://scholar.google.com/citations?user=YdrASjsAAAAJ" target="_blank" rel="noopener" title="scholar.google.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M390.9 298.5s0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64 1.7-3.6 3.6-7.2 5.6-10.7 4.4-7.6 9.4-14.7 15-21.3 27.4-32.6 68.5-53.3 114.4-53.3 33.6 0 64.6 11.1 89.6 29.9 9.1 6.9 17.4 14.7 24.8 23.5 5.6 6.6 10.6 13.8 15 21.3 2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0l256 202.7-94.7 77.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.researchgate.net/profile/Wen-Chieh-Lee-4" target="_blank" rel="noopener" title="www.researchgate.net" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:<wenchiehlee1020@gmail.com>" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1l172.5 141.6c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16h384c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.prune", "navigation.sections", "navigation.top", "navigation.footer", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", {"tabs": true}, "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js"></script>
+      
+    
+  </body>
+</html>
