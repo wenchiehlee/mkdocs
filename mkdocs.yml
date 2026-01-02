@@ -80,7 +80,7 @@ plugins:
 
       authors: true
       authors_file: "{blog}/.authors.yml"       
-      draft: true
+      draft: false
       draft_if_future_date: true #自動將具有未來日期的帖子標記為草稿
       draft_on_serve: true
       post_readtime: true
