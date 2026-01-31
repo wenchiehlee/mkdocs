@@ -27,7 +27,7 @@ hide:
 - title: Kohsin Lee 
   content: Software/AI Developer
   image: https://github.com/kohsin520.png
-  url: https://github.com/andylee-me.png
+  url: https://github.com/kohsin520
 ::/cards::
 
 --------------------
