@@ -1,0 +1,21 @@
+@startmindmap
+
+!theme toy
+Skinparam sequenceArrowThickness 3
+skinparam ParticipantPadding 7
+skinparam BoxPadding 10
+skinparam actorStyle awesome
+skinparam LegendBorderThickness 3
+skinparam backgroundColor transparent
+
+
+
++[#Red] **AI**
+++ Data Forecasting
++++ Stock Forecasting
+++ Language Model
++++ GenAI (Large Language Model)
+--[#Red] DevOps
+-- AIOT
+--- Data
+@endmindmap
