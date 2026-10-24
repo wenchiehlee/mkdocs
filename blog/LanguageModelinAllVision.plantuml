@@ -1,0 +1,19 @@
+@startmindmap
+
+!theme toy
+Skinparam sequenceArrowThickness 3
+skinparam ParticipantPadding 7
+skinparam BoxPadding 10
+skinparam actorStyle awesome
+skinparam LegendBorderThickness 3
+skinparam backgroundColor transparent
+
+
+
++[#yellowgreen] **AI**
+-- DevOps
+-- AIOT
+++ Computer Vision
+++[#yellowgreen]  **Language Model**
+++ Data Forecast
+@endmindmap
